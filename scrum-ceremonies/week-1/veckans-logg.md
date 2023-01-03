@@ -1,21 +1,35 @@
 # Sammanfattning av veckan
 
 ## Sprint planning
-- Vi tog 3 uppgifter denna vecka
-- Vår burndown chart var inte så bra; vi behöver prioritera om
+- Uppstart
 
 ## Daily standup
 ### måndag
-- Vi fick gjort x, y, z
-- Vi har inte gjort å, ä, ö
+**Vi fick gjort:**
+- Bestämma ett tema för vår pitch, meme-token, react-sida
+- Satte upp git-repo
+
+**Vi har inte gjort:**
+- Bestämma roller i gruppen
+- Backlog (vi behöver veta mer om vad vi ska göra innan vi kan sätta upp backloggen)
 
 ### tisdag
-- Vi fick gjort x, y, z
-- Vi har inte gjort å, ä, ö
+**Vad vi ska göra idag:**
+- Bestämma roller i gruppen
+- backlog
+
+**Vi fick gjort:**
+- Diskuterat hur vi ska gå vidare
+- Hittat tutorials för att lära oss mer om tokens och react
+- Börjat dokumentera scrum-cermonies
+- Fixat med access till git
+
+**Vi har inte gjort:**
+
 
 ## Sprint review & demo
-- Vi hittade 3 buggar när vi körde demon
-- Vi kom överens om att prioritera ner feature X; tidsbrist
-- Vi kom överens om att ta in feature Y; mer relevant
-- Vi har uppskattat uppgifterna för enkla; tar mer tid att genomföra
-- Andra insikter…
+- Vi kom överens om att prioritera skapandet av en token
+- Vi kom överens om att använda oss av react
+- Vi behöver kolla på tutorials, är det agilt? 
+- Tar vi oss vatten över huvudet med helt nya tekniker?
+
