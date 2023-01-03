@@ -15,8 +15,8 @@
 
 ### tisdag
 **Vad vi ska göra idag:**
-- Bestämma roller i gruppen
-- Backlog
+
+
 - Ladda ner node
 - Läsa på om react: https://reactjs.org/docs/getting-started.html
 - Börja kolla på react-tutorial: https://www.youtube.com/watch?v=bMknfKXIFA8
@@ -29,6 +29,10 @@
 - Hittat tutorials för att lära oss mer om tokens och react
 - Börjat dokumentera scrum-cermonies
 - Fixat med access till git
+- Bestämt att vi ska använda emojis vid commits: https://gitmoji.dev/
+- Bestämma roller i gruppen. Product owner: Jacob, Scrum master: Oscar, Dev team, Zarina, Erik
+- Merch design, hoodie with dopefish logo
+- Backlog
 
 **Vi har inte gjort:**
 
@@ -36,6 +40,6 @@
 ## Sprint review & demo
 - Vi kom överens om att prioritera skapandet av en token
 - Vi kom överens om att använda oss av react
-- Vi behöver kolla på tutorials, är det agilt? 
-- Tar vi oss vatten över huvudet med helt nya tekniker?
+- Vi behöver kolla på tutorials, är det agilt? Ja!
+- Tar vi oss vatten över huvudet med helt nya tekniker? Nej! 
 
