@@ -16,7 +16,13 @@
 ### tisdag
 **Vad vi ska göra idag:**
 - Bestämma roller i gruppen
-- backlog
+- Backlog
+- Ladda ner node
+- Läsa på om react: https://reactjs.org/docs/getting-started.html
+- Börja kolla på react-tutorial: https://www.youtube.com/watch?v=bMknfKXIFA8
+- Börja kolla på token/solidity-tutorial: https://www.youtube.com/watch?v=XdKv5uwEk5A
+- Kolla in Open Zeppelin: https://docs.openzeppelin.com/
+- Sätt upp truffle/ganache: https://trufflesuite.com/blog/build-on-web3-with-truffle-vs-code-extension/
 
 **Vi fick gjort:**
 - Diskuterat hur vi ska gå vidare
