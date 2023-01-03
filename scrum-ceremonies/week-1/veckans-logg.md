@@ -42,4 +42,7 @@
 - Vi kom överens om att använda oss av react
 - Vi behöver kolla på tutorials, är det agilt? Ja!
 - Tar vi oss vatten över huvudet med helt nya tekniker? Nej! 
+- Vi bestämde att react förmodligen inte hinns med, så räknar bort det i nuläget. 
+- Vi beslutade att en heldag är 6h effektiv arbetstid, 1 poäng = 3h. 
+- Vi beslutade att börja titta på en kortare tuturial för att utvärdera token idéen, beslut tas imorgon.  
 
