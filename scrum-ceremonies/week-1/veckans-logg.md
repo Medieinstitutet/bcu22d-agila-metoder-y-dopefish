@@ -53,6 +53,7 @@
 - Kollat på intro - token tutorial: https://www.youtube.com/watch?v=gc7e90MHvl8&t=6s 
 - Beslutat att den längre tutorialen inte behövs, vi utgår från den kortare (övre)
 - Bättre bild av vad vi vill ha på sidan, roadmap(sida med merch o NFT:s(comming soon), presentation av teamet med egna NFT:s, 
+- Discord Dopefish
 
 **Vad vi ska göra:**
 - Kolla in Open Zeppelin: https://docs.openzeppelin.com/
@@ -63,5 +64,5 @@
 ## Sprint review & demo
 - Vi har beslutat att truffle inte behövs, vi kör hardhat ist. 
 - Beslutat att vi delar upp oss i 2 grupper. En grupp arbetar med sidan i react och den andra gruppen arbetar med att göra token i solidity. Tidseffektivt,        
-  grupperna briefar varandra. 
+  grupperna briefar varandra. Erik o Jakob gör token, Oscar o Zarina gör sida. 
 
