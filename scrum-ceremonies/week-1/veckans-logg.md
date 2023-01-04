@@ -46,7 +46,7 @@
 - Vi beslutade att börja titta på en kortare tuturial för att utvärdera token idéen, beslut tas imorgon.  
 
 
-###tisdag
+###Onsdag
 **Vi fick gjort:**
 - NFT collection
 - Presentations draft 
@@ -54,10 +54,14 @@
 - Beslutat att den längre tutorialen inte behövs, vi utgår från den kortare (övre)
 - Bättre bild av vad vi vill ha på sidan, roadmap(sida med merch o NFT:s(comming soon), presentation av teamet med egna NFT:s, 
 - Discord Dopefish
+- En första utgåva av DopeFishToken, testat transaktioner och ser så allt funkar.
+- skapat Liqiudity pool på uniswap v3.
+- Skapat projekt wallet för teamets tokens. 
 
 **Vad vi ska göra:**
 - Kolla in Open Zeppelin: https://docs.openzeppelin.com/
 - Ladda ner Solidity extension (vs) och node.js
+- Kolla över eventulla tillägg till token tex. sell/buy tax, burn. 
 
 **Vi har inte gjort:**
 
