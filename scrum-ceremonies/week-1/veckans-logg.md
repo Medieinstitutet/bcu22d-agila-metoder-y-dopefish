@@ -73,10 +73,11 @@
 
 ### torsdag
 **Vi fick gjort:**
--Demo, review, retrospective
+- Demo, review, retrospective
+- Design draft webbsida
 
 **Vi har inte gjort:**
--ReadMe
+- ReadMe
 
 **Vad vi ska göra:**
 - Oscar o Zarina forstätta kolla långa react tutoriel (react tutorials 6p) under fredagen och helgen. https://www.youtube.com/watch?v=bMknfKXIFA8
@@ -88,13 +89,13 @@
 
 ## Veckans demo, review & retrospective
 - Demo:
-- Zarinat demat idé på design på webbsidan, ok med alla. Lägger design idé i denna mapp.
+- Zarina demat idé på design på webbsidan, ok med alla. Lägger design idé i img mapp.
 - Erik deamt token (DOPE) som han och Jakob utvecklat och testat. Mycket bra!
 - Review:
 - Alla insatta i vad som sker och alla ok med det. 
 - Retrospective:
 - 2 positiva saker under veckans sprint: 
-- Mycket flexibla kring idéer, planer, alla fått at del och komma till tals.
+- Mycket flexibla kring idéer, planer, alla fått ta del och komma till tals.
 - Mycket duktiga på att kommunicera, alla tid och engagerade. 
 - 2 saker som behöver förbättras till nästa veckas sprint:
 - Att komma ihåg att skapa issues för saker som behöver lösas
