@@ -36,7 +36,7 @@
 **Vi har inte gjort:**
 
 
-## Sprint review & demo
+## Kort samanfattning o beslut:
 - Vi kom överens om att prioritera skapandet av en token
 - Vi kom överens om att använda oss av react
 - Vi behöver kolla på tutorials, är det agilt? Ja!
@@ -46,7 +46,7 @@
 - Vi beslutade att börja titta på en kortare tuturial för att utvärdera token idéen, beslut tas imorgon.  
 
 
-###Onsdag
+### onsdag
 **Vi fick gjort:**
 - NFT collection
 - Presentations draft 
@@ -64,9 +64,42 @@
 - Kolla över eventulla tillägg till token tex. sell/buy tax, burn. 
 
 **Vi har inte gjort:**
+-
 
-## Sprint review & demo
+## Kort samanfattning o beslut:
 - Vi har beslutat att truffle inte behövs, vi kör hardhat ist. 
 - Beslutat att vi delar upp oss i 2 grupper. En grupp arbetar med sidan i react och den andra gruppen arbetar med att göra token i solidity. Tidseffektivt,        
-  grupperna briefar varandra. Erik o Jakob gör token, Oscar o Zarina gör sida. 
+  grupperna briefar varandra. Erik o Jakob gör token, Oscar o Zarina gör webbsida. 
+
+### torsdag
+**Vi fick gjort:**
+-Demo, review, retrospective
+
+**Vi har inte gjort:**
+-ReadMe
+
+**Vad vi ska göra:**
+- Oscar o Zarina forstätta kolla långa react tutoriel (react tutorials 6p) under fredagen och helgen. https://www.youtube.com/watch?v=bMknfKXIFA8
+  Vi beslutade att vi tog bort den i onsdags men testar nu igen. Vi testar om det hinns med att lära sig React och göra sidan i React. 
+- Erik o Jakob kolla över eventulla tillägg till token tex. sell/buy tax, burn. 
+
+## Kort samanfattning o beslut:
+- På måndag tar vi beslut om sidan ska byggas i React eller inte. 
+
+## Veckans demo, review & retrospective
+- Demo:
+- Zarinat demat idé på design på webbsidan, ok med alla. Lägger design idé i denna mapp.
+- Erik deamt token (DOPE) som han och Jakob utvecklat och testat. Mycket bra!
+- Review:
+- Alla insatta i vad som sker och alla ok med det. 
+- Retrospective:
+- 2 positiva saker under veckans sprint: 
+- Mycket flexibla kring idéer, planer, alla fått at del och komma till tals.
+- Mycket duktiga på att kommunicera, alla tid och engagerade. 
+- 2 saker som behöver förbättras till nästa veckas sprint:
+- Att komma ihåg att skapa issues för saker som behöver lösas
+- Plan för push/pull med React..?
+
+
+
 
