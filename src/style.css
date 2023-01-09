@@ -1,0 +1,102 @@
+.water {
+    width: 100vw;
+    height: 100vh;
+    z-index: -2;
+}    
+/*------------------------------------------------*/
+/*-------------------HEADER-----------------------*/
+/*------------------------------------------------*/
+.header {
+    position: fixed;
+    right: 50px;
+    top: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+a:link {
+    color: rgb(255, 136, 0);
+    text-decoration: none;
+}
+a:hover {
+    border-bottom: solid 3px  rgb(255, 136, 0);
+}
+a:visited {
+    color:  rgb(255, 136, 0);
+}
+/*------------------------------------------------*/
+/*-----------------CONTENT HOME-------------------*/
+/*------------------------------------------------*/
+.buyBtn {
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(60, 152, 60);
+    position: fixed;
+    top: 290px;
+    left: 40vw;
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding: 10px;
+    color: rgb(255, 136, 0);
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.buyBtn:hover {
+    background-color: rgb(57, 134, 57);
+}
+.token {
+    position: fixed;
+    left: 120px;
+    top: 50px;
+    width: 350px;
+}
+.textBuy {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 136, 0);
+    font-size: 1.2rem;
+    position: fixed;
+    top: 360px;
+    left: 37vw;
+}
+/*------------------------------------------------*/
+/*---------------------FOOTER---------------------*/
+/*------------------------------------------------*/
+.footer {
+    height: 70px;
+    margin: 10px;
+    position: fixed;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    outline: solid 3px  rgb(255, 136, 0);
+    border-radius: 10px;
+}
+.homeBtn, .teamBtn, .roadMapBtn, .nftBtn, .merchBtn {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.4rem;
+    font-weight: 700;
+    padding: 10px;
+    color: rgb(70, 172, 70);
+    width: 190px;
+    border: none;
+} 
+.homeBtn:hover {
+    border-bottom: solid 5px rgb(70, 172, 70);
+}
+.teamBtn:hover {
+    border-bottom: solid 5px rgb(70, 172, 70);
+}
+.roadMapBtn:hover {
+    border-bottom: solid 5px rgb(70, 172, 70);
+}
+.nftBtn:hover {
+    border-bottom: solid 5px rgb(70, 172, 70);
+}
+.merchBtn:hover {
+    border-bottom: solid 5px rgb(70, 172, 70);
+}
