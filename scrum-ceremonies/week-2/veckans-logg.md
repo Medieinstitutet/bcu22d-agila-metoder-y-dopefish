@@ -19,8 +19,11 @@
 
 ### tisdag
 **Vad vi ska göra idag:**
+- Z o O logik/addeventlistener.. i react
+- E o J färdigställer token
 
 **Vi fick gjort:**
+- Screenprint av vecka 2 sprint 
 
 **Vi har inte gjort:**
 
