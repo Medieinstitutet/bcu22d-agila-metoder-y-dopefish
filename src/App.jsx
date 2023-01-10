@@ -13,6 +13,10 @@ export default function Page() {
       <BodyImg />
       <Header />
       <HomePage />
+      {/* <TeamPage />
+      <RoadmapPage />
+      <NftPage />
+      <MerchPage /> */}
       <Footer />
     </div>
   )
