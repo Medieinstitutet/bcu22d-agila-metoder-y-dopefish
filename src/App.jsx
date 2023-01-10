@@ -3,21 +3,21 @@ import Header from "./modules/Header"
 import Footer from "./modules/Footer"
 import HomePage from "./modules/HomePage"
 import MerchPage from "./modules/MerchPage"
-import NftPage from "./modules/NftPage"
+import NftPage from "./modules/NftPage/NftPage"
 import RoadmapPage from "./modules/RoadmapPage"
 import TeamPage from "./modules/TeamPage"
 
 export default function Page() {
   return (
     <div>
-      <BodyImg />
+      {/* <BodyImg />
       <Header />
-      <HomePage />
+      <HomePage /> */}
       {/* <TeamPage />
-      <RoadmapPage />
+      <RoadmapPage /> */}
       <NftPage />
-      <MerchPage /> */}
-      <Footer />
+      {/* <MerchPage />
+      <Footer /> */}
     </div>
   )
 }

@@ -4,6 +4,11 @@
     z-index: -2;
 }
 
+.nftPage {
+    background-color: grey;
+    height: 100vh;
+}
+
 /*------------------------------------------------*/
 /*-------------------HEADER-----------------------*/
 /*------------------------------------------------*/
@@ -67,6 +72,7 @@ a:visited {
     top: 360px;
     left: 37vw;
 }
+
 /*------------------------------------------------*/
 /*-----------------CONTENT TEAM-------------------*/
 /*------------------------------------------------*/
@@ -79,7 +85,10 @@ a:visited {
     font-size: 2rem;
 }
 
-.Dev1pic, .Dev2pic, .Dev3pic, .Dev4pic {
+.Dev1pic,
+.Dev2pic,
+.Dev3pic,
+.Dev4pic {
     border-radius: 100px;
     width: 100px;
     position: fixed;
@@ -106,7 +115,10 @@ a:visited {
     top: 200px;
 }
 
-.textDev1, .textDev2, .textDev3, .textDev4  {
+.textDev1,
+.textDev2,
+.textDev3,
+.textDev4 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 136, 0);
     font-size: 1.1rem;
@@ -137,7 +149,10 @@ a:visited {
     top: 300px;
 }
 
-.textDev1a, .textDev2a, .textDev3a, .textDev4a {
+.textDev1a,
+.textDev2a,
+.textDev3a,
+.textDev4a {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 136, 0);
     font-size: 1rem;
@@ -167,7 +182,10 @@ a:visited {
     top: 330px;
 }
 
-.textDev1b, .textDev2b, .textDev3b, .textDev4b {
+.textDev1b,
+.textDev2b,
+.textDev3b,
+.textDev4b {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 136, 0);
     font-size: 1.2rem;
@@ -230,6 +248,20 @@ a:visited {
 /*------------------------------------------------*/
 /*---------------------CONTENT NFT----------------*/
 /*------------------------------------------------*/
+
+.nftDiv {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    height: 50vh;
+    width: 80vw;
+    // background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .Nft {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: rgb(70, 172, 70);
@@ -249,6 +281,30 @@ a:visited {
     transform: rotate(-20deg);
     animation: glow;
     text-shadow: 0 0 1px #fff, 0 0 2px orange;
+}
+
+.nft {
+    background-color: green;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    img {
+
+        width: 100px;
+        height: 100px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 }
 
 /*------------------------------------------------*/
