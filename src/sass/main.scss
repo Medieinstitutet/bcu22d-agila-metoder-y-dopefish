@@ -198,6 +198,60 @@ a:visited {
 }
 
 /*------------------------------------------------*/
+/*-----------------CONTENT ROADMAP----------------*/
+/*------------------------------------------------*/
+.Roadmap {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(70, 172, 70);
+    position: fixed;
+    left: 200px;
+    top: 70px;
+    font-size: 2rem;
+}
+
+.Text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 136, 0);
+    font-size: 1rem;
+    position: fixed;
+    top: 330px;
+    left: 33vw;
+}
+
+.Text2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 136, 0);
+    font-size: 1rem;
+    position: fixed;
+    top: 330px;
+    left: 53vw;
+}
+
+/*------------------------------------------------*/
+/*---------------------CONTENT NFT----------------*/
+/*------------------------------------------------*/
+.Nft {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(70, 172, 70);
+    position: fixed;
+    left: 200px;
+    top: 70px;
+    font-size: 2rem;
+}
+
+.Coming1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: orange;
+    position: fixed;
+    left: 500px;
+    top: 200px;
+    font-size: 2.6rem;
+    transform: rotate(-20deg);
+    animation: glow;
+    text-shadow: 0 0 1px #fff, 0 0 2px orange;
+}
+
+/*------------------------------------------------*/
 /*-----------------CONTENT MERCH------------------*/
 /*------------------------------------------------*/
 .Merch {
@@ -209,7 +263,7 @@ a:visited {
     font-size: 2rem;
 }
 
-.Comming2 {
+.Coming2 {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: orange;
     position: fixed;

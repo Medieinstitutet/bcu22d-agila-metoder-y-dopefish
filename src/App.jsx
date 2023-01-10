@@ -17,17 +17,3 @@ export default function HomePage() {
     </div>
   )
 }
-
-/* 
-function RoadMapPage () {
-  return (
-      
-  )
-}
-function NftPage () {
-  return (
-      
-  )
-}
-
-*/
