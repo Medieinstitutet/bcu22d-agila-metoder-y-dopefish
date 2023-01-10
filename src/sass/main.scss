@@ -67,6 +67,167 @@ a:visited {
     top: 360px;
     left: 37vw;
 }
+/*------------------------------------------------*/
+/*-----------------CONTENT TEAM-------------------*/
+/*------------------------------------------------*/
+.team {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(70, 172, 70);
+    position: fixed;
+    left: 200px;
+    top: 70px;
+    font-size: 2rem;
+}
+
+.Dev1pic, .Dev2pic, .Dev3pic, .Dev4pic {
+    border-radius: 100px;
+    width: 100px;
+    position: fixed;
+    outline: solid 5px rgb(70, 172, 70);
+}
+
+.Dev1pic {
+    left: 22.5vw;
+    top: 200px;
+}
+
+.Dev2pic {
+    left: 38.5vw;
+    top: 200px;
+}
+
+.Dev3pic {
+    left: 54.5vw;
+    top: 200px;
+}
+
+.Dev4pic {
+    left: 70.5vw;
+    top: 200px;
+}
+
+.textDev1, .textDev2, .textDev3, .textDev4  {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 136, 0);
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.textDev1 {
+    position: fixed;
+    left: 24vw;
+    top: 300px;
+}
+
+.textDev2 {
+    position: fixed;
+    left: 40vw;
+    top: 300px;
+}
+
+.textDev3 {
+    position: fixed;
+    left: 56vw;
+    top: 300px;
+}
+
+.textDev4 {
+    position: fixed;
+    left: 72vw;
+    top: 300px;
+}
+
+.textDev1a, .textDev2a, .textDev3a, .textDev4a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 136, 0);
+    font-size: 1rem;
+}
+
+.textDev1a {
+    position: fixed;
+    left: 23vw;
+    top: 330px;
+}
+
+.textDev2a {
+    position: fixed;
+    left: 39vw;
+    top: 330px;
+}
+
+.textDev3a {
+    position: fixed;
+    left: 55vw;
+    top: 330px;
+}
+
+.textDev4a {
+    position: fixed;
+    left: 71vw;
+    top: 330px;
+}
+
+.textDev1b, .textDev2b, .textDev3b, .textDev4b {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 136, 0);
+    font-size: 1.2rem;
+}
+
+.textDev1b {
+    position: fixed;
+    left: 24vw;
+    top: 380px;
+}
+
+.textDev2b {
+    position: fixed;
+    left: 40vw;
+    top: 380px;
+}
+
+.textDev3b {
+    position: fixed;
+    left: 56vw;
+    top: 380px;
+}
+
+.textDev4b {
+    position: fixed;
+    left: 72vw;
+    top: 380px;
+}
+
+/*------------------------------------------------*/
+/*-----------------CONTENT MERCH------------------*/
+/*------------------------------------------------*/
+.Merch {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: rgb(70, 172, 70);
+    position: fixed;
+    left: 200px;
+    top: 70px;
+    font-size: 2rem;
+}
+
+.Comming2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: orange;
+    position: fixed;
+    left: 35vw;
+    top: 150px;
+    font-size: 2.6rem;
+    transform: rotate(-20deg);
+    animation: glow;
+    text-shadow: 0 0 1px #fff, 0 0 2px orange;
+}
+
+.MerchPic {
+    position: fixed;
+    left: 36vw;
+    top: 160px;
+    z-index: -1;
+    width: 450px;
+}
 
 /*------------------------------------------------*/
 /*---------------------FOOTER---------------------*/
