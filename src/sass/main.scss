@@ -1,7 +1,7 @@
 .water {
     width: 100vw;
     height: 100vh;
-    z-index: -2;
+    z-index: -10;
 }
 
 /*------------------------------------------------*/
@@ -277,9 +277,8 @@ a:visited {
 
 .MerchPic {
     position: fixed;
-    left: 36vw;
+    left: 35vw;
     top: 160px;
-    z-index: -1;
     width: 450px;
 }
 
