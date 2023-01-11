@@ -1,9 +1,20 @@
-.water {
+body {
+    background-image: url(/public/water.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    z-index: -1;
+}
+
+/* .Water {
     width: 100vw;
     height: 100vh;
     z-index: -10;
+    alt
+    background-size: cover;
+    box-sizing: border-box;
+    alt i bodyImg, den ska täcka och ligga bakom merch bild
 }
-
+ */
 /*------------------------------------------------*/
 /*-------------------HEADER-----------------------*/
 /*------------------------------------------------*/
@@ -273,6 +284,7 @@ a:visited {
     transform: rotate(-20deg);
     animation: glow;
     text-shadow: 0 0 1px #fff, 0 0 2px orange;
+    z-index: 2;
 }
 
 .MerchPic {
@@ -280,6 +292,7 @@ a:visited {
     left: 35vw;
     top: 160px;
     width: 450px;
+    z-index: 1;
 }
 
 /*------------------------------------------------*/
