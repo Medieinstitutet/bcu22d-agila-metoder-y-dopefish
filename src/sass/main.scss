@@ -1,12 +1,8 @@
-.water {
-    width: 100vw;
-    height: 100vh;
-    z-index: -2;
-}
-
-.nftPage {
-    background-color: grey;
-    height: 100vh;
+body {
+    background-image: url(/public/water.jpg);
+    background-size: cover;
+    box-sizing: border-box;
+    z-index: -1;
 }
 
 /*------------------------------------------------*/
@@ -334,14 +330,15 @@ a:visited {
     transform: rotate(-20deg);
     animation: glow;
     text-shadow: 0 0 1px #fff, 0 0 2px orange;
+    z-index: 2;
 }
 
 .MerchPic {
     position: fixed;
-    left: 36vw;
+    left: 35vw;
     top: 160px;
-    z-index: -1;
     width: 450px;
+    z-index: 1;
 }
 
 /*------------------------------------------------*/
