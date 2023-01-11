@@ -2,7 +2,7 @@ import React from 'react'
 import Header from "./modules/Header"
 import HomePage from "./modules/HomePage"
 import MerchPage from "./modules/MerchPage"
-import NftPage from "./modules/NftPage"
+import NftPage from "./modules/NftPage/NftPage"
 import RoadmapPage from "./modules/RoadmapPage"
 import TeamPage from "./modules/TeamPage"
 

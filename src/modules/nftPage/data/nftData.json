@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Viking"
+    },
+    {
+        "id": 2,
+        "name": "Red Eye"
+    },
+    {
+        "id": 3,
+        "name": "Mermaid"
+    },
+    {
+        "id": 4,
+        "name": "Tivoli"
+    },
+    {
+        "id": 5,
+        "name": "Mrs. Walrus"
+    },
+    {
+        "id": 6,
+        "name": "King"
+    },
+    {
+        "id": 7,
+        "name": "Shark"
+    },
+    {
+        "id": 8,
+        "name": "Longhorn"
+    },
+    {
+        "id": 9,
+        "name": "Sheriff"
+    }
+]
