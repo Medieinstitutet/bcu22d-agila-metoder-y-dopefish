@@ -15,9 +15,8 @@ export default function NftPage() {
     console.log(nfts);
     return (
         <div className="nftPage">
-            <h2> NFT collection</h2>
+            <h2 className="Nft">NFT collection</h2>
             <h1 className="Coming1">COMING SOON!</h1>
-            <p>test</p>
             <div className="nftDiv">
                 {nfts}
             </div>
