@@ -1,4 +1,4 @@
-import MerchImg from "../img/Merch.png"
+import MerchImg from "/img/Merch.png"
 
 export default function MerchPage () {
     return (
