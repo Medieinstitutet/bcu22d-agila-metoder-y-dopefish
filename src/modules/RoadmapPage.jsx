@@ -12,6 +12,13 @@ export default function RoadmapPage () {
                 <p>Launch merch collection</p>
                 <p>Launch NFTs</p>
             </div>
+            <div className="NavbarBackground">
+                <button className="backgroundColorHomeBtn"></button>
+                <button className="backgroundColorTeamBtn"></button>
+                <button className="backgroundColorRoadmapBtn" style={{ backgroundColor: "rgb(255, 136, 0, 0.1)" }}></button>
+                <button className="backgroundColorNftBtn" ></button>
+                <button className="backgroundColorMerchBtn"></button>
+            </div>
         </div>
     )
   }

@@ -2,7 +2,7 @@ import React from 'react'
 import Header from "./modules/Header"
 import HomePage from "./modules/HomePage"
 import MerchPage from "./modules/MerchPage"
-import NftPage from "./modules/NftPage/NftPage"
+import NftPage from "./modules/NftPage"
 import RoadmapPage from "./modules/RoadmapPage"
 import TeamPage from "./modules/TeamPage"
 
@@ -32,13 +32,13 @@ export default function Page() {
       <div>
         {showPage}
       </div>
-      <footer className="footer">
+      <nav className="Navbar">
         <button onClick={clickHome} className="homeBtn">HOME</button>
         <button onClick={clickTeam} className="teamBtn">TEAM</button>
         <button onClick={clickRoadmap} className="roadMapBtn">ROADMAP</button>
         <button onClick={clickNft} className="nftBtn">NFTs</button>
         <button onClick={clickMerch} className="merchBtn">MERCH</button>
-      </footer>
+      </nav>
     </div>
   )
 }
