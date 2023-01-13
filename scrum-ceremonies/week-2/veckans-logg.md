@@ -47,16 +47,30 @@
 - Selfdestruct och cap på token, kanske eventuellt försöker lösas senare om tid finns men för närvarande är det tillbaka lagt i backloggen. 
 - Försök kommer göras på roadmapPage att göra tidslinjen glidande istället för statisk bild, då vi ligger bra till i tidsplanerningen. 
 
-### torsdag
+### Torsdag & Fredag
 **Vi fick gjort:**
+- Vi har jobbat på presentationen. skrivit korta sammanfattningar om de flesta "slides"
+- Vi har fixat så att hemsidan är "Live" på github Pages.
+- Vi har skapat en mobilvy.
+- Vi har fått input på hur vi kan lägga till en swipe funktion i mobil version. swiper.js
+- vi har mass mergat :)
 
 **Vi har inte gjort:**
+- Vi har inte sammanställt hela presentationen.
+- Vi har inte gjort klart mobil versionen.
+- Vi har inte bestämt hur vi ska dema sidan när vi presenterar.
 
 **Vad vi ska göra:**
 
 ## Kort samanfattning o beslut:
+- Vi ligger bra till i våran planering. Vi kommer lyckas genomföra vårat projekt med react.
 
 ## Veckans demo, review & retrospective
+- Z har demat mobilvy, alla är med den men lite småfix finns kvar.
+- J o E har demat uniswap (länk) (Crypto Token)och alla är med på tåget.
+- Review, alla är nöjda med veckan. Vi har uppnått det som planerats och även det som vi var osäkra på, dvs att få sidan att fungera i React.
+- Retroperspective: Vi har varit duktiga med att göra nya issues, push och pull för react. Det var punkter från förra veckan som behövdes förbättras och det har vi lyckats med denna veckan. merges och kommunikation har varit på topp :)
+- Jakob och Erik känner att dem hade kunnat vara mer agila och prioitera om efter mycket research där vi insåg att våran kunskap inte kunde lösa detta problemet. 
 
 
 
