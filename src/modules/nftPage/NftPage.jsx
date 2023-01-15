@@ -151,14 +151,27 @@ export default function NftPage() {
             // console.log(start);
             // console.log(end);
             // console.log("page.end", pagination.end);
+        } else if (data.length % numberOfNfts != 0 && end < data.length) {
+            // setStart(end)
+            setStart(end)
+            setEnd(data.length)
+            // console.log("EN UDDA KVAR!");
+            // setStart(data.length - 1)
+            // setEnd(data.length)
         }
     }
 
     function prevNfts() {
-        if (start >= numberOfNfts) {
-            setStart(prevValue => prevValue - numberOfNfts)
-            setEnd(prevValue => prevValue - numberOfNfts)
+
+        if ((end - start) != numberOfNfts) {
+            setEnd(data.length - 1)
+            setStart(data.length - 1 - numberOfNfts)
         }
+        else
+            if (start >= numberOfNfts) {
+                setStart(prevValue => prevValue - numberOfNfts)
+                setEnd(prevValue => prevValue - numberOfNfts)
+            }
     }
 
 
