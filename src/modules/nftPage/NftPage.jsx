@@ -5,25 +5,41 @@ import React, { useEffect, useState } from "react";
 export default function NftPage() {
 
     //Hook
-    function useWindowSize() {
-        // Initialize state with undefined width/height so server and client renders match
-        // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
-        const [width, setWidth] = useState(undefined);
-        useEffect(() => {
-            // Handler to call on window resize
-            function handleResize() {
-                // Set window width/height to state
-                setWidth(window.innerWidth);
-            }
-            // Add event listener
-            window.addEventListener("resize", handleResize);
-            // Call handler right away so state gets updated with initial window size
-            handleResize();
-            // Remove event listener on cleanup
-            return () => window.removeEventListener("resize", handleResize);
-        }, []); // Empty array ensures that effect is only run on mount
-        return width;
-    }
+    // function getWidth() {
+    //     // Initialize state with undefined width/height so server and client renders match
+    //     // Learn more here: https://joshwcomeau.com/react/the-perils-of-rehydration/
+    //     const [width, setWidth] = useState(undefined);
+    //     useEffect(() => {
+    //         // Handler to call on window resize
+    //         function handleResize() {
+    //             // Set window width/height to state
+    //             setWidth(window.innerWidth);
+    //         }
+    //         // Add event listener
+    //         window.addEventListener("resize", handleResize);
+    //         // Call handler right away so state gets updated with initial window size
+    //         handleResize();
+    //         // Remove event listener on cleanup
+    //         return () => window.removeEventListener("resize", handleResize);
+    //     }, []); // Empty array ensures that effect is only run on mount
+    //     return width;
+    // }
+
+    // let width = getWidth()
+    // console.log(width);
+
+    // const [width, setWidth] = useState(window.innerWidth);
+    // const handleResize = () => {
+    //     // Set window width/height to state
+    //     setWidth(window.innerWidth);
+    //     // console.log(width);
+    //     // console.log(window.innerWidth);
+    //     // setNumberOfNfts(getNumberOfNfts(width))
+    // }
+
+    // useEffect(() => {
+    //     window.addEventListener("resize", handleResize)
+    // }, [])
 
 
 
@@ -39,8 +55,8 @@ export default function NftPage() {
     function getNumberOfNfts(width) {
         if (width <= 813) {
             // setNumberOfNfts(1)
-            return 1
             console.log("number 1");
+            return 1
         }
         else if (width <= 1250) {
             // setNumberOfNfts(2)
@@ -76,6 +92,31 @@ export default function NftPage() {
         let num = getNumberOfNfts(window.innerWidth);
         return num
     })
+
+
+
+    const handleResize = () => {
+        // Set window width/height to state
+        // setWidth(window.innerWidth);
+        // console.log(width);
+        // console.log(window.innerWidth);
+        setNumberOfNfts(() => {
+            let num = getNumberOfNfts(window.innerWidth);
+            setStart(0)
+            setEnd(num)
+            return num
+        })
+    }
+
+    useEffect(() => {
+        window.addEventListener("resize", handleResize)
+    }, [])
+
+
+
+    // getNumberOfNfts(width)
+
+
     //let numberOfNfts = 1;
 
 
@@ -85,7 +126,10 @@ export default function NftPage() {
     const [start, setStart] = useState(0)
     const [end, setEnd] = useState(numberOfNfts)
 
+    //SETEND START+NUMBEROFNFTS
+
     const nfts = data.slice(start, end).map(nft => {
+        console.log(start, end);
         return (
             <Nft
                 name={nft.name}

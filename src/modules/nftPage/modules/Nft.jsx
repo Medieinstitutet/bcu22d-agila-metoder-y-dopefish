@@ -1,6 +1,6 @@
 
 export default function Nft(props) {
-    console.log(props);
+    //console.log(props);
     return (
         <div className="nft">
             <h1>{props.name}</h1>
