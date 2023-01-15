@@ -89,26 +89,23 @@ a:visited {
     width: 100px;
     position: fixed;
     outline: solid 5px rgb(70, 172, 70);
+    top: 200px;
 }
 
 .Dev1pic {
     left: 22.5vw;
-    top: 200px;
 }
 
 .Dev2pic {
     left: 38.5vw;
-    top: 200px;
 }
 
 .Dev3pic {
     left: 54.5vw;
-    top: 200px;
 }
 
 .Dev4pic {
     left: 70.5vw;
-    top: 200px;
 }
 
 .textDev1,
@@ -119,30 +116,24 @@ a:visited {
     color: rgb(255, 136, 0);
     font-size: 1.1rem;
     font-weight: bold;
+    position: fixed;
+    top: 300px;
 }
 
 .textDev1 {
-    position: fixed;
     left: 24vw;
-    top: 300px;
 }
 
 .textDev2 {
-    position: fixed;
     left: 40vw;
-    top: 300px;
 }
 
 .textDev3 {
-    position: fixed;
     left: 56vw;
-    top: 300px;
 }
 
 .textDev4 {
-    position: fixed;
     left: 72vw;
-    top: 300px;
 }
 
 .textDev1a,
@@ -152,30 +143,24 @@ a:visited {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 136, 0);
     font-size: 1rem;
+    position: fixed;
+    top: 330px;
 }
 
 .textDev1a {
-    position: fixed;
     left: 23vw;
-    top: 330px;
 }
 
 .textDev2a {
-    position: fixed;
     left: 39vw;
-    top: 330px;
 }
 
 .textDev3a {
-    position: fixed;
     left: 55vw;
-    top: 330px;
 }
 
 .textDev4a {
-    position: fixed;
     left: 71vw;
-    top: 330px;
 }
 
 .textDev1b,
@@ -185,30 +170,24 @@ a:visited {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 136, 0);
     font-size: 1.2rem;
+    position: fixed;
+    top: 380px;
 }
 
 .textDev1b {
-    position: fixed;
     left: 24vw;
-    top: 380px;
 }
 
 .textDev2b {
-    position: fixed;
     left: 40vw;
-    top: 380px;
 }
 
 .textDev3b {
-    position: fixed;
     left: 56vw;
-    top: 380px;
 }
 
 .textDev4b {
-    position: fixed;
     left: 72vw;
-    top: 380px;
 }
 
 /*------------------------------------------------*/
@@ -419,10 +398,14 @@ a:visited {
 /*------------------------------------------------*/
 @media screen and (max-width: 500px) { 
 
+    body {
+        background-image: url('/img/water.jpg');
+        background-size: cover;
+        box-sizing: border-box;
+    } 
     /*-------------------HEADER-------------------*/
     .header {
-        right: 4px;
-        top: 0px;
+        right: 25px;
     }
     a:link {
         font-size: 0.7rem;
@@ -430,53 +413,100 @@ a:visited {
     }
     /*-------------------CONTENT HOME---------------*/
     .token {
-        left: 26px;
-        top: 28px;
-        max-width: 150px;
+        left: 28px;
+        top: 30px;
+        max-width: 160px;
     }
     .buyBtn {
-        top: 170px;
-        left: 34%;
+        top: 222px;
+        left: 24%;
         padding: 10px;
-        width: 150px;
         font-weight: bold;
-        font-size: 0.7rem;
+        font-size: 0.9rem;
+        width: 190px;
     }
     .textBuy {
         font-size: 0.6rem;
-        top: 210px;
-        left: 24%;
+        top: 270px;
+        left: 20%;
     }
     /*-----------------CONTENT TEAM-------------------*/
     .team {
         left: 40px;
-        top: 20px;
-        font-size: 1.1rem;
+        top: 60px;
+        font-size: 1.2rem;
     }
     .Dev1pic, .Dev2pic, .Dev3pic, .Dev4pic {
-        width: 40px;
-        top: 120px;
+        width: 45px;
+        top: 155px;
         outline: solid 2px rgb(70, 172, 70);
     }
+    .Dev1pic {
+        left: 18%;
+    }
+    .Dev2pic {
+        left: 34.5%;
+    }
+    .Dev3pic {
+        left: 51.5%;
+    }
+    .Dev4pic {
+        left: 68%;
+    }
     .textDev1, .textDev2, .textDev3, .textDev4  {
-        top: 170px;
+        top: 205px;
         font-size: 0.6rem;
         font-weight: bold;
-
+    }
+    .textDev1 {
+        left: 20.5%;
+    }
+    .textDev2 {
+        left: 37%;
+    }
+    .textDev3 {
+        left: 54%;
+    }
+    .textDev4 {
+        left: 70.5%;
     }
     .textDev1a, .textDev2a, .textDev3a, .textDev4a {
         font-size: 0.6rem;
-        top: 190px;
+        top: 220px;
+    }
+    .textDev1a {
+        left: 17%;
+    }
+    .textDev2a {
+        left: 33.5%;
+    }
+    .textDev3a {
+        left: 50.5%;
+    }
+    .textDev4a {
+        left: 67%;
     }
     .textDev1b, .textDev2b, .textDev3b, .textDev4b {
         font-size: 0.6rem;
-        top: 230px;
+        top: 250px;
+    }
+    .textDev1b {
+        left: 21%;
+    }
+    .textDev2b {
+        left: 37.5%;
+    }
+    .textDev3b {
+        left: 54.5%;
+    }
+    .textDev4b {
+        left: 71%;
     }
     /*-----------------CONTENT ROADMAP----------------*/
     .Roadmap {
         left: 40px;
-        top: 20px;
-        font-size: 1.1rem;
+        top: 60px;
+        font-size: 1.2rem;
     }
     /* .Roadmap2 {     BILDEN ska den med eller ej?
         left: 23vw;
@@ -496,30 +526,30 @@ a:visited {
     /*---------------------CONTENT NFT----------------*/
     .Nft {
         left: 40px;
-        top: 20px;
-        font-size: 1.1rem;
+        top: 60px;
+        font-size: 1.2rem;
     }
     .Coming1 {
-        left: 32%;
-        top: 130px;
-        font-size: 1.3rem;
+        left: 30%;
+        top: 175px;
+        font-size: 1.4rem;
     }
     /*-----------------CONTENT MERCH------------------*/
     .Merch {
         left: 40px;
-        top: 20px;
-        font-size: 1.1rem;
+        top: 60px;
+        font-size: 1.2rem;
     }
     .Coming2 {
-        left: 30%;
-        top: 115px;
-        font-size: 1.3rem;
+        left: 26%;
+        top: 157px;
+        font-size: 1.4rem;
     }
     .MerchPic {
-        left: 28%;
-        top: 120px;
+        left: 16;
+        top: 165px;
         z-index: -1;
-        width: 200px;
+        width: 250px;
     }
     /*---------------------FOOTER---------------------*/
     .Navbar {
