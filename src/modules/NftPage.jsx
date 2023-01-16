@@ -1,5 +1,5 @@
-import Nft from "./modules/Nft"
-import nftData from "./data/nftData.json"
+import Nft from "./nftPage/modules/Nft"
+import nftData from "./nftPage/data/nftData.json"
 import React, { useEffect, useState } from "react";
 
 export default function NftPage() {

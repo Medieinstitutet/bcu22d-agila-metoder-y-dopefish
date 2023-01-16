@@ -2,13 +2,13 @@ import React from 'react'
 import Header from "./modules/Header"
 import HomePage from "./modules/HomePage"
 import MerchPage from "./modules/MerchPage"
-import NftPage from "./modules/NftPage/NftPage"
+import NftPage from "./modules/NftPage"
 import RoadmapPage from "./modules/RoadmapPage"
 import TeamPage from "./modules/TeamPage"
 
 export default function Page() {
-  
-  const [showPage, setShowPage ] = React.useState(<HomePage />)
+
+  const [showPage, setShowPage] = React.useState(<HomePage />)
 
   function clickHome() {
     setShowPage(<HomePage />)
