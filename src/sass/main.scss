@@ -1,5 +1,5 @@
 body {
-    background-image: url('/water.jpg');
+    background-image: url('/img/water.jpg');
     background-size: cover;
     box-sizing: border-box;
     z-index: -1;
@@ -359,9 +359,9 @@ a:visited {
 }
 
 /*------------------------------------------------*/
-/*---------------------FOOTER---------------------*/
+/*---------------------NAVBAR---------------------*/
 /*------------------------------------------------*/
-.footer {
+.Navbar {
     height: 70px;
     margin: 10px;
     position: fixed;
@@ -388,6 +388,7 @@ a:visited {
     color: rgb(70, 172, 70);
     width: 190px;
     border: none;
+    z-index: 2;
 }
 
 .homeBtn:hover {
@@ -408,4 +409,145 @@ a:visited {
 
 .merchBtn:hover {
     border-bottom: solid 5px rgb(70, 172, 70);
+}
+
+.NavbarBackground {
+    height: 70px;
+    margin: 10px;
+    position: fixed;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.backgroundColorHomeBtn, .backgroundColorTeamBtn, 
+.backgroundColorRoadmapBtn, .backgroundColorNftBtn, 
+.backgroundColorMerchBtn {
+    width: 190px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+/*------------------------------------------------*/
+/*----------------MOBILE--------------------------*/
+/*------------------------------------------------*/
+@media screen and (max-width: 500px) { 
+
+    /*-------------------HEADER-------------------*/
+    .header {
+        right: 4px;
+        top: 0px;
+    }
+    a:link {
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    /*-------------------CONTENT HOME---------------*/
+    .token {
+        left: 26px;
+        top: 28px;
+        max-width: 150px;
+    }
+    .buyBtn {
+        top: 170px;
+        left: 34%;
+        padding: 10px;
+        width: 150px;
+        font-weight: bold;
+        font-size: 0.7rem;
+    }
+    .textBuy {
+        font-size: 0.6rem;
+        top: 210px;
+        left: 24%;
+    }
+    /*-----------------CONTENT TEAM-------------------*/
+    .team {
+        left: 40px;
+        top: 20px;
+        font-size: 1.1rem;
+    }
+    .Dev1pic, .Dev2pic, .Dev3pic, .Dev4pic {
+        width: 40px;
+        top: 120px;
+        outline: solid 2px rgb(70, 172, 70);
+    }
+    .textDev1, .textDev2, .textDev3, .textDev4  {
+        top: 170px;
+        font-size: 0.6rem;
+        font-weight: bold;
+
+    }
+    .textDev1a, .textDev2a, .textDev3a, .textDev4a {
+        font-size: 0.6rem;
+        top: 190px;
+    }
+    .textDev1b, .textDev2b, .textDev3b, .textDev4b {
+        font-size: 0.6rem;
+        top: 230px;
+    }
+    /*-----------------CONTENT ROADMAP----------------*/
+    .Roadmap {
+        left: 40px;
+        top: 20px;
+        font-size: 1.1rem;
+    }
+    /* .Roadmap2 {     BILDEN ska den med eller ej?
+        left: 23vw;
+        top: 120px;
+        width: 240px;
+    } */
+    .Text {
+        font-size: 0.6rem;
+        top: 190px;
+        left: 23vw;
+    }
+    .Text2 {
+        font-size: 0.6rem;
+        top: 190px;
+        left: 53vw;
+    }
+    /*---------------------CONTENT NFT----------------*/
+    .Nft {
+        left: 40px;
+        top: 20px;
+        font-size: 1.1rem;
+    }
+    .Coming1 {
+        left: 32%;
+        top: 130px;
+        font-size: 1.3rem;
+    }
+    /*-----------------CONTENT MERCH------------------*/
+    .Merch {
+        left: 40px;
+        top: 20px;
+        font-size: 1.1rem;
+    }
+    .Coming2 {
+        left: 30%;
+        top: 115px;
+        font-size: 1.3rem;
+    }
+    .MerchPic {
+        left: 28%;
+        top: 120px;
+        z-index: -1;
+        width: 200px;
+    }
+    /*---------------------FOOTER---------------------*/
+    .Navbar {
+        height: 60px;
+        margin: 10px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+    }
+    .homeBtn, .teamBtn, .roadMapBtn, .nftBtn, .merchBtn {
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
 }

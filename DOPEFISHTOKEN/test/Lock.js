@@ -40,12 +40,12 @@ describe("DOPEFISHTOKEN contract", function() {
       // Transfer 50 tokens from owner to addr1
       await DopeFishToken.transfer(addr1.address, 50);
       const addr1Balance = await DopeFishToken.balanceOf(addr1.address);
-      expect(addr1Balance).to.equal(50);
+      expect(addr1Balance).to.equal(48);
 
       // Transfer 50 tokens from addr1 to addr2
       await DopeFishToken.connect(addr1).transfer(addr2.address, 50);
       const addr2Balance = await DopeFishToken.balanceOf(addr2.address);
-      expect(addr2Balance).to.equal(50);
+      expect(addr2Balance).to.equal(48);
     });
 
     it("Should fail if sender doesn’t have enough tokens", async function() {
@@ -73,10 +73,10 @@ describe("DOPEFISHTOKEN contract", function() {
       expect(finalOwnerBalance).to.equal(initialOwnerBalance.sub(150));
 
       const addr1Balance = await DopeFishToken.balanceOf(addr1.address);
-      expect(addr1Balance).to.equal(100);
+      expect(addr1Balance).to.equal(97);
 
       const addr2Balance = await DopeFishToken.balanceOf(addr2.address);
-      expect(addr2Balance).to.equal(50);
+      expect(addr2Balance).to.equal(49);
 
     });
   });

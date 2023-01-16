@@ -73,7 +73,6 @@ export default function NftPage() {
                 setEnd(prevValue => prevValue - numberOfNfts)
             }
     }
-
     return (
         <div className="nftPage">
             <h2 className="Nft">NFT collection</h2>
@@ -81,8 +80,17 @@ export default function NftPage() {
             <div className="nftDiv">
                 {nfts}
             </div>
+
             <button onClick={prevNfts} className="nftBtn">Previous</button>
             <button onClick={nextNfts} className="nftBtn">Next</button>
+
+            <div className="NavbarBackground">
+                <button className="backgroundColorHomeBtn"></button>
+                <button className="backgroundColorTeamBtn"></button>
+                <button className="backgroundColorRoadmapBtn"></button>
+                <button className="backgroundColorNftBtn" style={{ backgroundColor: "rgb(255, 136, 0, 0.1)" }} ></button>
+                <button className="backgroundColorMerchBtn"></button>
+            </div>
         </div>
     )
 }
