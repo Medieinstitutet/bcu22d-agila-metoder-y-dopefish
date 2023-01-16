@@ -1,38 +1,56 @@
 [
     {
         "id": 1,
-        "name": "Viking"
+        "name": "Viking",
+        "description": "I'm a firece Viking fish, ready to pillage the digital seas and acquire all the cryptocurrency i can hold in my digital fishy pockets. TYYR!",
+        "price": "TBD"
     },
     {
         "id": 2,
-        "name": "Red Eye"
+        "name": "Red Eye",
+        "description": "",
+        "price": "TBD"
     },
     {
         "id": 3,
-        "name": "Mermaid"
+        "name": "Mermaid",
+        "description": "Always be yourself. Unless you can be a mermaid. Then always be a mermaid",
+        "price": "TBD"
     },
     {
         "id": 4,
-        "name": "Tivoli"
+        "name": "Tivoli",
+        "description": "",
+        "price": "TBD"
     },
     {
         "id": 5,
-        "name": "Mrs. Walrus"
+        "name": "Mrs. Walrus",
+        "description": "",
+        "price": "TBD"
     },
     {
         "id": 6,
-        "name": "King"
+        "name": "King",
+        "description": "Make way for the ruler of the sea, the one and only king of the fishs, with my dazzling diamond wand I command the tide and all the creatures of the ocean.",
+        "price": "TBD"
     },
     {
         "id": 7,
-        "name": "Shark"
+        "name": "Shark",
+        "description": "",
+        "price": "TBD"
     },
     {
         "id": 8,
-        "name": "Longhorn"
+        "name": "Longhorn",
+        "description": "",
+        "price": "TBD"
     },
     {
         "id": 9,
-        "name": "Sheriff"
+        "name": "Sheriff",
+        "description": "",
+        "price": "TBD"
     }
 ]

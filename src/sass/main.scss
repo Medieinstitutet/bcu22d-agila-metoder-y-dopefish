@@ -245,6 +245,14 @@ a:visited {
 /*---------------------CONTENT NFT----------------*/
 /*------------------------------------------------*/
 
+.nftPage {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .nftDiv {
     display: flex;
     align-items: center;
@@ -256,6 +264,7 @@ a:visited {
     // background-color: black;
     margin-left: auto;
     margin-right: auto;
+    // overflow-y: scroll;
 }
 
 .Nft {
@@ -270,9 +279,9 @@ a:visited {
 .Coming1 {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: orange;
-    position: fixed;
-    left: 500px;
-    top: 200px;
+    // position: fixed;
+    // left: 500px;
+    // top: 200px;
     font-size: 2.6rem;
     transform: rotate(-20deg);
     animation: glow;
@@ -291,6 +300,14 @@ a:visited {
     h1 {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    p {
+        padding-left: 16px;
+        padding-right: 16px;
+        // margin-left: auto;
+        // margin-right: auto;
+        color: white;
     }
 
     img {
