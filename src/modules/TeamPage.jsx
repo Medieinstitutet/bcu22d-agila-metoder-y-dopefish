@@ -6,7 +6,7 @@ import Dev4Img from "../img/Dev4.png"
 export default function TeamPage () {
     return (
         <div>
-            <h2 className="team">The team</h2>
+            <h2 className="team">team</h2>
             <img src={Dev1Img} className="Dev1pic" />
             <p className="textDev1">Mr O</p>
             <p className="textDev1a">Developer<br></br>Co-founder</p>
