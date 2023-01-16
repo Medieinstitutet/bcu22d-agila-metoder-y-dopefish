@@ -416,7 +416,7 @@ a:visited {
 @media screen and (max-width: 500px) { 
 
     body {
-        background-image: url('/img/water.jpg');
+        background-image: url('/img/water_mob.jpg');
         background-size: cover;
         box-sizing: border-box;
     } 
@@ -579,5 +579,12 @@ a:visited {
     .homeBtn, .teamBtn, .roadMapBtn, .nftBtn, .merchBtn {
         font-size: 0.7rem;
         font-weight: 700;
+    }
+    .NavbarBackground {
+        height: 60px;
+        margin: 10px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
     }
 }

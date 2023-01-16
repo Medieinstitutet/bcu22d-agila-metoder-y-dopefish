@@ -1,4 +1,4 @@
-import tokenImg from "../img/token.gif"
+import tokenImg from "/img/token.gif"
 
 export default function HomePage() {
     return (
@@ -10,7 +10,7 @@ export default function HomePage() {
         <img src={tokenImg} className="token" />
         <p className="textBuy">"Placeholder, explain how to buy Dopefish token"</p>
         <div className="NavbarBackground">
-          <button className="backgroundColorHomeBtn" style={{ backgroundColor: "rgb(255, 136, 0, 0.1)" }}></button>
+          <button className="backgroundColorHomeBtn" style={{ backgroundColor: "rgb(255, 136, 0, 0.2)", borderRadius:"10px 10px 10px 10px" }}></button>
           <button className="backgroundColorTeamBtn"></button>
           <button className="backgroundColorRoadmapBtn"></button>
           <button className="backgroundColorNftBtn"></button>
