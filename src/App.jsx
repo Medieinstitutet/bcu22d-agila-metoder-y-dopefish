@@ -7,8 +7,8 @@ import RoadmapPage from "./modules/RoadmapPage"
 import TeamPage from "./modules/TeamPage"
 
 export default function Page() {
-  
-  const [showPage, setShowPage ] = React.useState(<HomePage />)
+
+  const [showPage, setShowPage] = React.useState(<HomePage />)
 
   function clickHome() {
     setShowPage(<HomePage />)

@@ -1,4 +1,4 @@
-import tokenImg from "../img/token.gif";
+import tokenImg from "/img/token.gif"
 
 export default function HomePage() {
 	return (

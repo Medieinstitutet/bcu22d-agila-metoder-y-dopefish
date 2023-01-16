@@ -11,7 +11,7 @@ export default function MerchPage () {
                 <button className="backgroundColorTeamBtn"></button>
                 <button className="backgroundColorRoadmapBtn"></button>
                 <button className="backgroundColorNftBtn" ></button>
-                <button className="backgroundColorMerchBtn" style={{ backgroundColor: "rgb(255, 136, 0, 0.1)" }}></button>
+                <button className="backgroundColorMerchBtn" style={{ backgroundColor: "rgb(255, 136, 0, 0.2)", borderRadius:"10px 10px 10px 10px" }}></button>
             </div>
         </div>
     )

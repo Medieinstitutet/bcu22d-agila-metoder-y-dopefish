@@ -1,7 +1,7 @@
-import Dev1Img from "../img/Dev1.png"
-import Dev2Img from "../img/Dev2.png"
-import Dev3Img from "../img/Dev3.png"
-import Dev4Img from "../img/Dev4.png"
+import Dev1Img from "/img/Dev1.png"
+import Dev2Img from "/img/Dev2.png"
+import Dev3Img from "/img/Dev3.png"
+import Dev4Img from "/img/Dev4.png"
 
 export default function TeamPage () {
     return (
@@ -25,7 +25,7 @@ export default function TeamPage () {
             <p className="textDev4b"><i class="fa-brands fa-github"></i> <i class="fa-brands fa-linkedin"></i></p>
             <div className="NavbarBackground">
                 <button className="backgroundColorHomeBtn"></button>
-                <button className="backgroundColorTeamBtn" style={{ backgroundColor: "rgb(255, 136, 0, 0.1)" }}></button>
+                <button className="backgroundColorTeamBtn" style={{ backgroundColor: "rgb(255, 136, 0, 0.2)", borderRadius:"10px 10px 10px 10px" }}></button>
                 <button className="backgroundColorRoadmapBtn"></button>
                 <button className="backgroundColorNftBtn"></button>
                 <button className="backgroundColorMerchBtn"></button>
