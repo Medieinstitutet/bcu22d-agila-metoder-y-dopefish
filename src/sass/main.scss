@@ -148,130 +148,109 @@ a:visited {
 .Dev2pic,
 .Dev3pic,
 .Dev4pic {
-	border-radius: 100px;
-	width: 100px;
-	position: fixed;
-	outline: solid 5px rgb(70, 172, 70);
+    border-radius: 100px;
+    width: 100px;
+    position: fixed;
+    outline: solid 5px rgb(70, 172, 70);
+    top: 200px;
 }
 
 .Dev1pic {
-	left: 22.5vw;
-	top: 200px;
+    left: 22.5vw;
 }
 
 .Dev2pic {
-	left: 38.5vw;
-	top: 200px;
+    left: 38.5vw;
 }
 
 .Dev3pic {
-	left: 54.5vw;
-	top: 200px;
+    left: 54.5vw;
 }
 
 .Dev4pic {
-	left: 70.5vw;
-	top: 200px;
+    left: 70.5vw;
 }
 
 .textDev1,
 .textDev2,
 .textDev3,
 .textDev4 {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: rgb(255, 136, 0);
-	font-size: 1.1rem;
-	font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 136, 0);
+    font-size: 1.1rem;
+    font-weight: bold;
+    position: fixed;
+    top: 300px;
 }
 
 .textDev1 {
-	position: fixed;
-	left: 24vw;
-	top: 300px;
+    left: 24vw;
 }
 
 .textDev2 {
-	position: fixed;
-	left: 40vw;
-	top: 300px;
+    left: 40vw;
 }
 
 .textDev3 {
-	position: fixed;
-	left: 56vw;
-	top: 300px;
+    left: 56vw;
 }
 
 .textDev4 {
-	position: fixed;
-	left: 72vw;
-	top: 300px;
+    left: 72vw;
 }
 
 .textDev1a,
 .textDev2a,
 .textDev3a,
 .textDev4a {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: rgb(255, 136, 0);
-	font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 136, 0);
+    font-size: 1rem;
+    position: fixed;
+    top: 330px;
 }
 
 .textDev1a {
-	position: fixed;
-	left: 23vw;
-	top: 330px;
+    left: 23vw;
 }
 
 .textDev2a {
-	position: fixed;
-	left: 39vw;
-	top: 330px;
+    left: 39vw;
 }
 
 .textDev3a {
-	position: fixed;
-	left: 55vw;
-	top: 330px;
+    left: 55vw;
 }
 
 .textDev4a {
-	position: fixed;
-	left: 71vw;
-	top: 330px;
+    left: 71vw;
 }
 
 .textDev1b,
 .textDev2b,
 .textDev3b,
 .textDev4b {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: rgb(255, 136, 0);
-	font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(255, 136, 0);
+    font-size: 1.2rem;
+    position: fixed;
+    top: 380px;
 }
 
 .textDev1b {
-	position: fixed;
-	left: 24vw;
-	top: 380px;
+    left: 24vw;
 }
 
 .textDev2b {
-	position: fixed;
-	left: 40vw;
-	top: 380px;
+    left: 40vw;
 }
 
 .textDev3b {
-	position: fixed;
-	left: 56vw;
-	top: 380px;
+    left: 56vw;
 }
 
 .textDev4b {
-	position: fixed;
-	left: 72vw;
-	top: 380px;
+    left: 72vw;
 }
 
 /*------------------------------------------------*/
@@ -441,17 +420,26 @@ a:visited {
 /*---------------------CONTENT NFT----------------*/
 /*------------------------------------------------*/
 
+.nftPage {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .nftDiv {
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	gap: 50px;
-	height: 50vh;
-	width: 80vw;
-	// background-color: black;
-	margin-left: auto;
-	margin-right: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 50px;
+    height: 50vh;
+    width: 80vw;
+    // background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    // overflow-y: scroll;
 }
 
 // .Nft {
@@ -464,15 +452,15 @@ a:visited {
 // }
 
 .Coming1 {
-	font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
-	color: orange;
-	position: fixed;
-	left: 500px;
-	top: 200px;
-	font-size: 2.6rem;
-	transform: rotate(-20deg);
-	animation: glow;
-	text-shadow: 0 0 1px #fff, 0 0 2px orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    color: orange;
+    // position: fixed;
+    // left: 500px;
+    // top: 200px;
+    font-size: 2.6rem;
+    transform: rotate(-20deg);
+    animation: glow;
+    text-shadow: 0 0 1px #fff, 0 0 2px orange;
 }
 
 .nft {
@@ -484,10 +472,18 @@ a:visited {
 	flex-direction: column;
 	//justify-content: center;
 
-	h1 {
-		margin-left: auto;
-		margin-right: auto;
-	}
+    h1 {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p {
+        padding-left: 16px;
+        padding-right: 16px;
+        // margin-left: auto;
+        // margin-right: auto;
+        color: white;
+    }
 
 	img {
 		width: 200px;
@@ -614,135 +610,178 @@ a:visited {
 /*------------------------------------------------*/
 /*----------------MOBILE--------------------------*/
 /*------------------------------------------------*/
-@media screen and (max-width: 500px) {
-	/*-------------------HEADER-------------------*/
-	.header {
-		right: 4px;
-		top: 0px;
-	}
-	a:link {
-		font-size: 0.7rem;
-		font-weight: 400;
-	}
-	/*-------------------CONTENT HOME---------------*/
-	.token {
-		left: 26px;
-		top: 28px;
-		max-width: 150px;
-	}
-	.buyBtn {
-		top: 170px;
-		left: 34%;
-		padding: 10px;
-		width: 150px;
-		font-weight: bold;
-		font-size: 0.7rem;
-	}
-	.textBuy {
-		font-size: 0.6rem;
-		top: 210px;
-		left: 24%;
-	}
-	/*-----------------CONTENT TEAM-------------------*/
-	.team {
-		left: 40px;
-		top: 20px;
-		font-size: 1.1rem;
-	}
-	.Dev1pic,
-	.Dev2pic,
-	.Dev3pic,
-	.Dev4pic {
-		width: 40px;
-		top: 120px;
-		outline: solid 2px rgb(70, 172, 70);
-	}
-	.textDev1,
-	.textDev2,
-	.textDev3,
-	.textDev4 {
-		top: 170px;
-		font-size: 0.6rem;
-		font-weight: bold;
-	}
-	.textDev1a,
-	.textDev2a,
-	.textDev3a,
-	.textDev4a {
-		font-size: 0.6rem;
-		top: 190px;
-	}
-	.textDev1b,
-	.textDev2b,
-	.textDev3b,
-	.textDev4b {
-		font-size: 0.6rem;
-		top: 230px;
-	}
-	/*-----------------CONTENT ROADMAP----------------*/
-	.Roadmap {
-		left: 40px;
-		top: 20px;
-		font-size: 1.1rem;
-	}
-	/* .Roadmap2 {     BILDEN ska den med eller ej?
+@media screen and (max-width: 500px) { 
+
+    body {
+        background-image: url('/img/water_mob.jpg');
+        background-size: cover;
+        box-sizing: border-box;
+    } 
+    /*-------------------HEADER-------------------*/
+    .header {
+        right: 25px;
+    }
+    a:link {
+        font-size: 0.7rem;
+        font-weight: 400;
+    }
+    /*-------------------CONTENT HOME---------------*/
+    .token {
+        left: 28px;
+        top: 30px;
+        max-width: 160px;
+    }
+    .buyBtn {
+        top: 222px;
+        left: 24%;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 0.9rem;
+        width: 190px;
+    }
+    .textBuy {
+        font-size: 0.6rem;
+        top: 270px;
+        left: 20%;
+    }
+    /*-----------------CONTENT TEAM-------------------*/
+    .team {
+        left: 40px;
+        top: 60px;
+        font-size: 1.2rem;
+    }
+    .Dev1pic, .Dev2pic, .Dev3pic, .Dev4pic {
+        width: 45px;
+        top: 155px;
+        outline: solid 2px rgb(70, 172, 70);
+    }
+    .Dev1pic {
+        left: 18%;
+    }
+    .Dev2pic {
+        left: 34.5%;
+    }
+    .Dev3pic {
+        left: 51.5%;
+    }
+    .Dev4pic {
+        left: 68%;
+    }
+    .textDev1, .textDev2, .textDev3, .textDev4  {
+        top: 205px;
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    .textDev1 {
+        left: 20.5%;
+    }
+    .textDev2 {
+        left: 37%;
+    }
+    .textDev3 {
+        left: 54%;
+    }
+    .textDev4 {
+        left: 70.5%;
+    }
+    .textDev1a, .textDev2a, .textDev3a, .textDev4a {
+        font-size: 0.6rem;
+        top: 220px;
+    }
+    .textDev1a {
+        left: 17%;
+    }
+    .textDev2a {
+        left: 33.5%;
+    }
+    .textDev3a {
+        left: 50.5%;
+    }
+    .textDev4a {
+        left: 67%;
+    }
+    .textDev1b, .textDev2b, .textDev3b, .textDev4b {
+        font-size: 0.6rem;
+        top: 250px;
+    }
+    .textDev1b {
+        left: 21%;
+    }
+    .textDev2b {
+        left: 37.5%;
+    }
+    .textDev3b {
+        left: 54.5%;
+    }
+    .textDev4b {
+        left: 71%;
+    }
+    /*-----------------CONTENT ROADMAP----------------*/
+    .Roadmap {
+        left: 40px;
+        top: 60px;
+        font-size: 1.2rem;
+    }
+    /* .Roadmap2 {     BILDEN ska den med eller ej?
         left: 23vw;
         top: 120px;
         width: 240px;
     } */
-	.Text {
-		font-size: 0.6rem;
-		top: 190px;
-		left: 23vw;
-	}
-	.Text2 {
-		font-size: 1rem;
-		top: 190px;
-		left: 53vw;
-	}
-
-	/*---------------------CONTENT NFT----------------*/
-	.Nft {
-		left: 40px;
-		top: 20px;
-		font-size: 1.1rem;
-	}
-	.Coming1 {
-		left: 32%;
-		top: 130px;
-		font-size: 1.3rem;
-	}
-	/*-----------------CONTENT MERCH------------------*/
-	.Merch {
-		left: 40px;
-		top: 20px;
-		font-size: 1.1rem;
-	}
-	.Coming2 {
-		left: 30%;
-		top: 115px;
-		font-size: 1.3rem;
-	}
-	.MerchPic {
-		left: 28%;
-		top: 120px;
-		z-index: -1;
-		width: 200px;
-	}
-	/*---------------------FOOTER---------------------*/
-	.Navbar {
-		height: 60px;
-		margin: 10px;
-		bottom: 5px;
-		left: 5px;
-		right: 5px;
-	}
-	.homeBtn,
-	.teamBtn,
-	.roadMapBtn,
-	.nftBtn,
-	.merchBtn {
-		font-size: 0.7rem;
-		font-weight: 700;
-	}
+    .Text {
+        font-size: 0.6rem;
+        top: 190px;
+        left: 23vw;
+    }
+    .Text2 {
+        font-size: 0.6rem;
+        top: 190px;
+        left: 53vw;
+    }
+    /*---------------------CONTENT NFT----------------*/
+    .Nft {
+        left: 40px;
+        top: 60px;
+        font-size: 1.2rem;
+    }
+    .Coming1 {
+        left: 30%;
+        top: 175px;
+        font-size: 1.4rem;
+    }
+    /*-----------------CONTENT MERCH------------------*/
+    .Merch {
+        left: 40px;
+        top: 60px;
+        font-size: 1.2rem;
+    }
+    .Coming2 {
+        left: 26%;
+        top: 157px;
+        font-size: 1.4rem;
+    }
+    .MerchPic {
+        left: 16;
+        top: 165px;
+        z-index: -1;
+        width: 250px;
+    }
+    /*---------------------FOOTER---------------------*/
+    .Navbar {
+        height: 60px;
+        margin: 10px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+    }
+    .homeBtn, .teamBtn, .roadMapBtn, .nftBtn, .merchBtn {
+        font-size: 0.7rem;
+        font-weight: 700;
+    }
+    .NavbarBackground {
+        height: 60px;
+        margin: 10px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+    }
 }
