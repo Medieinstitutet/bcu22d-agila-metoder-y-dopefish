@@ -25,6 +25,18 @@ body {
 	scale: 1.25;
 }
 
+.RM, .team, .Merch, .Nft{
+	font-family: 'Gill Sans', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-size: 4.5em;
+	color: rgb(70, 172, 70);
+	text-shadow: 3px 3px 5px rgb(0, 27, 23), 4px 4px 5px #000000;
+	text-align: center;
+	animation: fadeIn 1s ease-in 1;
+  margin: 0 0 ;
+}
+
 /*------------------------------------------------*/
 /*-----------------CONTENT HOME-------------------*/
 /*------------------------------------------------*/
@@ -42,10 +54,10 @@ body {
 	border-radius: 6px;
 	border: none;
     transition: 0.5s ease;
-     box-shadow: 2px 2px 10px 10px rgb(255, 136, 0);
-     cursor: pointer;
-     text-shadow: 2px 2px 2px rgb(0, 0, 0);
-     animation: ScaleUp 2s ease-in-out infinite alternate;
+    box-shadow: 2px 2px 10px 10px rgb(255, 136, 0);
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    animation: ScaleUp 2s ease-in-out infinite alternate;
 }
 
 .buyBtn:hover {
@@ -335,7 +347,7 @@ body {
 	height: 200px;
 	padding: 20px;
 	background-color: rgba(0, 0, 0, 0);
-	background-image: url(img/sharky.png);
+	background-image: url("/img/sharky.png");
 	background-repeat: no-repeat;
 	background-position: 3rem 5rem;
 	background-size: 300px;
@@ -389,17 +401,6 @@ body {
 .Q4 {
 	top: 58%;
 	left: 73%;
-}
-.RM, .team, .Merch, .Nft{
-	font-family: 'Gill Sans', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-	font-size: 4.5em;
-	color: rgb(70, 172, 70);
-	text-shadow: 3px 3px 5px rgb(0, 27, 23), 4px 4px 5px #000000;
-	text-align: center;
-	animation: fadeIn 1s ease-in 1;
-    margin: 0 0 ;
 }
 
 @keyframes moveRight {
