@@ -1,5 +1,6 @@
 import tokenImg from "/img/token.gif"
 
+
 export default function HomePage() {
 	return (
 		<div>
@@ -13,9 +14,11 @@ export default function HomePage() {
 				className="token"
 			/>
 			<div className="home-container">
+				
 				<h2 className="title">How to Buy</h2>
 				<div className="line-home"></div>
 				<p className="home-text">1. Click the "Buy Dopefish Token" button</p>
+
 
 				<p className="home-text">2. Connect your wallet to Uniswap</p>
 
@@ -28,6 +31,12 @@ export default function HomePage() {
 				<p className="home-text">5. Confirm the transaction</p>
 
 				<p className="home-text bold">HAPPY FISHING</p>
+
+				<p className="home-text">Contract adress:</p>
+				<div className="home-link">
+				<a href="https://goerli.etherscan.io/token/0xfCBeBF089d379061c903D986D18193cceD6253FD" target="_blank">0xfCBeBF089d379061c903D986D18193cceD6253FD</a>
+				</div>
+
 			</div>
 			<div className="NavbarBackground">
 				<button

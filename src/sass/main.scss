@@ -41,7 +41,7 @@ a:visited {
 	background-color: rgb(60, 152, 60);
 	position: fixed;
 	bottom: 200px;
-	left: 42.5%;
+	left: 43%;
 	font-size: 1.5rem;
 	font-weight: 700;
 	padding: 25px;
@@ -71,8 +71,8 @@ a:visited {
 }
 
 .home-container {
-    width: 40vh;
-    height: 37vh;
+    width: 42vh;
+    height: 40vh;
     position: fixed;
     top: 20%;
     left: 41%;
@@ -117,6 +117,31 @@ a:visited {
     font-size: 1.8rem;
     margin: 0 5px;
     text-decoration: underline;
+}
+
+.home-link{
+    position: relative;
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    color: rgb(255, 136, 0);
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 0 5px;
+    transition: 0.5s;
+}
+
+.home-link a {
+    transition: 0.5s;
+    padding: 5px 5px;
+    border-radius: 10px;
+    
+}
+
+.home-link a:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+    
 }
 
 @keyframes ScaleUp {
