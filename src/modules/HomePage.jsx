@@ -32,7 +32,7 @@ export default function HomePage() {
 			<div className="NavbarBackground">
 				<button
 					className="backgroundColorHomeBtn"
-					style={{ backgroundColor: "rgb(255, 136, 0, 0.1)" }}></button>
+					style={{ backgroundColor: "rgb(255, 136, 0, 0.1)", borderRadius:"10px 10px 10px 10px" }}></button>
 				<button className="backgroundColorTeamBtn"></button>
 				<button className="backgroundColorRoadmapBtn"></button>
 				<button className="backgroundColorNftBtn"></button>
