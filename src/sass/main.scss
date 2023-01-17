@@ -17,14 +17,6 @@ body {
 	font-weight: 700;
 }
 
-a:link {
-	color: rgb(29, 24, 18);
-	text-decoration: none;
-}
-
-a:visited {
-	color: rgb(255, 136, 0);
-}
 .header img {
 	transition: 0.5s;
 }
@@ -49,7 +41,6 @@ a:visited {
 	width: 33vh;
 	border-radius: 6px;
 	border: none;
-	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     transition: 0.5s ease;
      box-shadow: 2px 2px 10px 10px rgb(255, 136, 0);
      cursor: pointer;
@@ -136,7 +127,7 @@ a:visited {
     transition: 0.5s;
     padding: 5px 5px;
     border-radius: 10px;
-    
+    color: rgb(255, 136, 0);
 }
 
 .home-link a:hover{
@@ -169,7 +160,7 @@ a:visited {
     width: 100px;
     position: fixed;
     outline: solid 5px rgb(70, 172, 70);
-    top: 200px;
+    top: 300px;
 }
 
 .Dev1pic {
@@ -197,7 +188,9 @@ a:visited {
     font-size: 1.1rem;
     font-weight: bold;
     position: fixed;
-    top: 300px;
+    top: 405px;
+    
+
 }
 
 .textDev1 {
@@ -224,7 +217,8 @@ a:visited {
     color: rgb(255, 136, 0);
     font-size: 1rem;
     position: fixed;
-    top: 330px;
+    top: 430px;
+    text-align: center;
 }
 
 .textDev1a {
@@ -251,7 +245,7 @@ a:visited {
     color: rgb(255, 136, 0);
     font-size: 1.2rem;
     position: fixed;
-    top: 380px;
+    top: 480px;
 }
 
 .textDev1b {
@@ -351,6 +345,7 @@ a:visited {
 }
 
 .box li {
+    font-family: 'Gill Sans', sans-serif;
 	list-style: none;
 	color: rgb(70, 172, 70);
 	font-size: 1.5rem;
@@ -396,15 +391,15 @@ a:visited {
 	left: 73%;
 }
 .RM, .team, .Merch, .Nft{
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Gill Sans', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-size: 4.5em;
 	color: rgb(70, 172, 70);
 	text-shadow: 3px 3px 5px rgb(0, 27, 23), 4px 4px 5px #000000;
 	text-align: center;
-	margin-top: 20px;
 	animation: fadeIn 1s ease-in 1;
+    margin: 0 0 ;
 }
 
 @keyframes moveRight {
@@ -436,6 +431,13 @@ a:visited {
 /*------------------------------------------------*/
 /*---------------------CONTENT NFT----------------*/
 /*------------------------------------------------*/
+
+.Nft {
+    position: relative;
+    top: -55px;
+
+}
+
 
 .nftPage {
     height: 90vh;
@@ -470,6 +472,29 @@ a:visited {
     transform: rotate(-20deg);
     animation: glow;
     text-shadow: 0 0 1px #fff, 0 0 2px orange;
+}
+
+.nftPrev{
+}
+
+.nftNext{
+    font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+    font-size: 1.7rem;
+    color: rgb(70, 172, 70);
+    width: 130px;
+    padding: 5px 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 10px;
+    text-shadow: 3px 5px rgb(0 27 23), 4px 4px 5px #000000;;
+    
+}
+
+.nftNext:hover {
+    background-color: rgb(255, 136, 0, 0.2);
 }
 
 .nft {
@@ -514,8 +539,8 @@ a:visited {
 	color: orange;
 	position: fixed;
 	left: 35vw;
-	top: 150px;
-	font-size: 2.6rem;
+	top: 325px;
+	font-size: 4rem;
 	transform: rotate(-20deg);
 	animation: glow;
 	text-shadow: 0 0 1px #fff, 0 0 2px orange;
@@ -524,9 +549,9 @@ a:visited {
 
 .MerchPic {
 	position: fixed;
-	left: 35vw;
-	top: 160px;
-	width: 450px;
+	left: 33vw;
+	top: 15rem;
+	width: 40rem;
 	z-index: 1;
 }
 
@@ -562,7 +587,10 @@ a:visited {
 	width: 190px;
 	border: none;
 	z-index: 2;
+    cursor: pointer;
 }
+
+
 
 .homeBtn:hover {
 	border-bottom: solid 5px rgb(70, 172, 70);

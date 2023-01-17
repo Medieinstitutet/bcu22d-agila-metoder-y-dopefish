@@ -75,14 +75,15 @@ export default function NftPage() {
     }
     return (
         <div className="nftPage">
-            <h2 className="Nft">NFT collection</h2>
+        <h2 className="Nft">NFT collection</h2>
             <h1 className="Coming1">COMING SOON!</h1>
             <div className="nftDiv">
                 {nfts}
             </div>
-
-            <button onClick={prevNfts} className="nftBtn">Previous</button>
-            <button onClick={nextNfts} className="nftBtn">Next</button>
+            <div className="Button-container">
+            <button onClick={prevNfts} className="nftNext">Previous</button>
+            <button onClick={nextNfts} className="nftNext">Next</button>
+            </div>
 
             <div className="NavbarBackground">
                 <button className="backgroundColorHomeBtn"></button>
