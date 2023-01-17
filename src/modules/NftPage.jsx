@@ -75,12 +75,12 @@ export default function NftPage() {
     }
     return (
         <div className="nftPage">
-        <h2 className="Nft">NFT collection</h2>
+        <h2 className="Nft">NFT</h2>
             <h1 className="Coming1">COMING SOON!</h1>
             <div className="nftDiv">
                 {nfts}
             </div>
-            <div className="Button-container">
+            <div className="button-container">
             <button onClick={prevNfts} className="nftNext">Previous</button>
             <button onClick={nextNfts} className="nftNext">Next</button>
             </div>
