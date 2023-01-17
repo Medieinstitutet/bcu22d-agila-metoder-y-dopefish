@@ -21,10 +21,17 @@
 
 ### tisdag
 **Vi fick gjort:**
--
+- 404 sida
+- Löst merch konflikter
+- Bilderna funkar igen vid deployad sida
+- ReadMe påbörjad
+- Mobil ver snart klar
 
 **Vi har inte gjort:**
-- 
+- Mob ver är ej klar
+- Demat sidan
+- Info slides power point
+- Klart Readme
 
 **Vad vi ska göra:**
 - Lösa de problem som uppstod vid merch, bilder bla
