@@ -34,18 +34,27 @@ body {
 	text-shadow: 3px 3px 5px rgb(0, 27, 23), 4px 4px 5px #000000;
 	text-align: center;
 	animation: fadeIn 1s ease-in 1;
-  margin: 0 0 ;
+    margin: 0 0 ;
 }
 
 /*------------------------------------------------*/
 /*-----------------CONTENT HOME-------------------*/
 /*------------------------------------------------*/
+.containerHomePage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    margin-top: 2%;
+}
+
 .buyBtn {
 	font-family: "Rubik", sans-serif;
 	background-color: rgb(60, 152, 60);
-	position: fixed;
-	bottom: 200px;
-	left: 43%;
+    top: 95%;
 	font-size: 1.5rem;
 	font-weight: 700;
 	padding: 25px;
@@ -58,35 +67,36 @@ body {
     cursor: pointer;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     animation: ScaleUp 2s ease-in-out infinite alternate;
+    position: relative;
+    margin-top: 12%;
 }
 
 .buyBtn:hover {
 	background-color: rgb(57, 134, 57);
     scale: 2;
-     box-shadow: 2px 2px 250px 250px rgb(255, 136, 0);
+    box-shadow: 2px 2px 250px 250px rgb(255, 136, 0);
 }
 
 .token {
-	position: fixed;
-	left: 120px;
-	top: 50px;
+    top: 50px;
+    left: 60px;
 	width: 350px;
+    position: fixed;
 }
 
 .home-container {
+    margin-top: 5%;
     width: 45vh;
-    height: 45vh;
-    position: fixed;
-    top: 20%;
-    left: 41%;
+    height: 45vh; 
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px rgb(255, 136, 0);
     background-color: rgba(60, 152, 60, 0.8);
+    position: relative;
 }
 
 .title {
     color: rgb(255, 136, 0,);
-    font-size: 2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     text-align: center;
@@ -108,16 +118,8 @@ body {
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
 
-
-.textBuy {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	color: rgb(255, 136, 0);
-	font-size: 1rem;
-    font-weight: bold;
-}
-
 .bold {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     margin: 0 5px;
     text-decoration: underline;
 }
@@ -131,7 +133,6 @@ body {
     text-align: center;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     text-decoration: none;
-    margin: 0 5px;
     transition: 0.5s;
 }
 
@@ -145,7 +146,6 @@ body {
 
 .home-link a:hover{
     background-color: rgba(0, 0, 0, 0.5);
-    
 }
 
 @keyframes ScaleUp {
@@ -158,12 +158,28 @@ body {
     100% {
         transform: scale(1);
     }
-    
 }
 
 /*------------------------------------------------*/
 /*-----------------CONTENT TEAM-------------------*/
 /*------------------------------------------------*/
+
+.containerAllDev {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-top: 10%;   
+}
+
+.contaionerDev1, .contaionerDev2, .contaionerDev3, .contaionerDev4 {
+    text-align: center;
+    width: 20%;
+}
 
 .Dev1pic,
 .Dev2pic,
@@ -171,25 +187,9 @@ body {
 .Dev4pic {
     border-radius: 100px;
     width: 100px;
-    position: fixed;
+
     outline: solid 5px rgb(70, 172, 70);
     top: 300px;
-}
-
-.Dev1pic {
-    left: 22.5vw;
-}
-
-.Dev2pic {
-    left: 38.5vw;
-}
-
-.Dev3pic {
-    left: 54.5vw;
-}
-
-.Dev4pic {
-    left: 70.5vw;
 }
 
 .textDev1,
@@ -200,26 +200,6 @@ body {
     color: rgb(255, 136, 0);
     font-size: 1.1rem;
     font-weight: bold;
-    position: fixed;
-    top: 405px;
-    
-
-}
-
-.textDev1 {
-    left: 24vw;
-}
-
-.textDev2 {
-    left: 40vw;
-}
-
-.textDev3 {
-    left: 56vw;
-}
-
-.textDev4 {
-    left: 72vw;
 }
 
 .textDev1a,
@@ -229,25 +209,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 136, 0);
     font-size: 1rem;
-    position: fixed;
-    top: 430px;
-    text-align: center;
-}
 
-.textDev1a {
-    left: 23vw;
-}
-
-.textDev2a {
-    left: 39vw;
-}
-
-.textDev3a {
-    left: 55vw;
-}
-
-.textDev4a {
-    left: 71vw;
 }
 
 .textDev1b,
@@ -257,36 +219,14 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 136, 0);
     font-size: 1.2rem;
-    position: fixed;
-    top: 480px;
-}
-
-.textDev1b {
-    left: 24vw;
-}
-
-.textDev2b {
-    left: 40vw;
-}
-
-.textDev3b {
-    left: 56vw;
-}
-
-.textDev4b {
-    left: 72vw;
 }
 
 /*------------------------------------------------*/
 /*-----------------CONTENT ROADMAP----------------*/
 /*------------------------------------------------*/
 .container {
-	// position: flex;
-	// align-items: center;
-	// justify-content: center;
-	width: 100%;
+	width: 10%;
 	height: 100%;
-	overflow: hidden;
 }
 
 .line {
@@ -350,8 +290,8 @@ body {
 	background-color: rgba(0, 0, 0, 0);
 	background-image: url("/img/sharky.png");
 	background-repeat: no-repeat;
-	background-position: 3rem 5rem;
-	background-size: 300px;
+	background-position: 6rem 5rem;
+	background-size: 250px;
 	border-radius: 10px;
 	box-shadow: 2px 2px 5px 5px rgb(0, 0, 0);
 	animation: fadeIn 0.5s ease-in 1;
@@ -375,12 +315,12 @@ body {
 	text-align: center;
 	margin: 0;
     color: rgb(255, 136, 0)
-    
 }
 
 .underline {
 	height: 1px;
 	width: 100%;
+    margin-bottom: 2px;
 	background-color: rgb(60, 152, 60);
 }
 
@@ -437,9 +377,7 @@ body {
 .Nft {
     position: relative;
     top: -55px;
-
 }
-
 
 .nftPage {
     height: 90vh;
@@ -592,8 +530,6 @@ body {
     cursor: pointer;
 }
 
-
-
 .homeBtn:hover {
 	border-bottom: solid 5px rgb(70, 172, 70);
 }
@@ -652,25 +588,30 @@ body {
     }
     /*-------------------CONTENT HOME---------------*/
     .token {
-        left: 28px;
-        top: 30px;
         max-width: 160px;
+        position: relative;
+        left: 0;
+        top: 0px;
     }
+    .home-container {
+        margin-top: 0%;
+    } 
+    .title {
+        font-size: 1.5rem;
+    }   
+    .home-text {
+        font-size: 0.8rem;
+    }   
+    .home-link{ 
+        font-size: 0.75rem;
+    }
+
     .buyBtn {
-        left: 26%;
         padding: 10px;
         font-weight: bold;
         font-size: 1.2rem;
         width: 250px;
-    }
-    .textBuy {
-        font-size: 0.6rem;
-        top: 270px;
-        left: 20%;
-    }
-
-    .home-container{
-        left: 10%
+        margin-top: 8%;
     }
 
     /*-----------------CONTENT TEAM-------------------*/
@@ -678,72 +619,31 @@ body {
         font-size: 2.5rem;
         padding-top: 15px;
     }
+    .containerAllDev {
+        margin-top: 30%;
+        row-gap: 35px;
+    }
+    .contaionerDev1, .contaionerDev2, .contaionerDev3, .contaionerDev4 {
+        text-align: center;
+        width: 35%;
+    }
     .Dev1pic, .Dev2pic, .Dev3pic, .Dev4pic {
         width: 45px;
-        top: 155px;
         outline: solid 2px rgb(70, 172, 70);
     }
-    .Dev1pic {
-        left: 18%;
-    }
-    .Dev2pic {
-        left: 34.5%;
-    }
-    .Dev3pic {
-        left: 51.5%;
-    }
-    .Dev4pic {
-        left: 68%;
-    }
+    
     .textDev1, .textDev2, .textDev3, .textDev4  {
-        top: 205px;
         font-size: 0.6rem;
-        font-weight: bold;
     }
-    .textDev1 {
-        left: 20.5%;
-    }
-    .textDev2 {
-        left: 37%;
-    }
-    .textDev3 {
-        left: 54%;
-    }
-    .textDev4 {
-        left: 70.5%;
-    }
-    .textDev1a, .textDev2a, .textDev3a, .textDev4a {
+
+    .textDev1a, .textDev2a, .textDev3a, .textDev4a  {
         font-size: 0.6rem;
-        top: 220px;
     }
-    .textDev1a {
-        left: 17%;
-    }
-    .textDev2a {
-        left: 33.5%;
-    }
-    .textDev3a {
-        left: 50.5%;
-    }
-    .textDev4a {
-        left: 67%;
-    }
-    .textDev1b, .textDev2b, .textDev3b, .textDev4b {
+
+    .textDev1b, .textDev2b, .textDev3b, .textDev4b  {
         font-size: 0.6rem;
-        top: 250px;
     }
-    .textDev1b {
-        left: 21%;
-    }
-    .textDev2b {
-        left: 37.5%;
-    }
-    .textDev3b {
-        left: 54.5%;
-    }
-    .textDev4b {
-        left: 71%;
-    }
+    
     /*-----------------CONTENT ROADMAP----------------*/
     .RM {
         left: 40px;
@@ -751,10 +651,23 @@ body {
         font-size: 2.5rem;
         padding-top: 15px;
     }
+    .box { 
+        width: 240px;
+        height: 180px;
+        background-position: 5rem 5rem;
+	    background-size: 200px;
+    }
+    .box li {
+        font-size: 1.1rem;     
+        line-height: 2;
+    }
+    .box h3 {
+        font-size: 1.5rem; 
+    }
 
-    .scrolling-image
-    {
+    .scrolling-image {
         left:10%;
+        width: 110px;
     }
 
     .Q1 {
@@ -772,16 +685,7 @@ body {
     .Q4 {
         left: 15%;
     }
-    .Text {
-        font-size: 0.6rem;
-        top: 190px;
-        left: 23vw;
-    }
-    .Text2 {
-        font-size: 0.6rem;
-        top: 190px;
-        left: 53vw;
-    }
+    
     /*---------------------CONTENT NFT----------------*/
     .Nft {
         top: -80px;
@@ -796,6 +700,7 @@ body {
     .button-container{
         margin-top: 20px;
     }
+
     /*-----------------CONTENT MERCH------------------*/
     .Merch {
         padding-top: 15px;
@@ -806,7 +711,7 @@ body {
         top: 30%;
         left: 50%;
         transform: translate(-50%, -50%);
-        font-size: 3rem;
+        font-size: 2.5rem;
         width: 100%;
         text-align: center;
     }
@@ -815,7 +720,7 @@ body {
         top:50%;
         left:50%;
         transform: translate(-50%, -50%);
-        width: 440px;
+        width: 400px;
         align-items: center;
     }
     /*---------------------FOOTER---------------------*/
