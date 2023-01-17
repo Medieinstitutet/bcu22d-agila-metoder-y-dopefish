@@ -50,7 +50,7 @@ body {
 	font-weight: 700;
 	padding: 25px;
 	color: rgb(255, 136, 0);
-	width: 33vh;
+	width: 37vh;
 	border-radius: 6px;
 	border: none;
     transition: 0.5s ease;
@@ -74,8 +74,8 @@ body {
 }
 
 .home-container {
-    width: 42vh;
-    height: 40vh;
+    width: 45vh;
+    height: 45vh;
     position: fixed;
     top: 20%;
     left: 41%;
@@ -140,6 +140,7 @@ body {
     padding: 5px 5px;
     border-radius: 10px;
     color: rgb(255, 136, 0);
+    text-decoration: none;
 }
 
 .home-link a:hover{
@@ -646,12 +647,8 @@ body {
         box-sizing: border-box;
     } 
     /*-------------------HEADER-------------------*/
-    .header {
-        right: 25px;
-    }
-    a:link {
-        font-size: 0.7rem;
-        font-weight: 400;
+    .header img {
+        width: 75px;
     }
     /*-------------------CONTENT HOME---------------*/
     .token {
@@ -660,23 +657,26 @@ body {
         max-width: 160px;
     }
     .buyBtn {
-        top: 222px;
-        left: 24%;
+        left: 26%;
         padding: 10px;
         font-weight: bold;
-        font-size: 0.9rem;
-        width: 190px;
+        font-size: 1.2rem;
+        width: 250px;
     }
     .textBuy {
         font-size: 0.6rem;
         top: 270px;
         left: 20%;
     }
+
+    .home-container{
+        left: 10%
+    }
+
     /*-----------------CONTENT TEAM-------------------*/
     .team {
-        left: 40px;
-        top: 60px;
-        font-size: 1.2rem;
+        font-size: 2.5rem;
+        padding-top: 15px;
     }
     .Dev1pic, .Dev2pic, .Dev3pic, .Dev4pic {
         width: 45px;
@@ -748,7 +748,29 @@ body {
     .RM {
         left: 40px;
         top: 60px;
-        font-size: 1.2rem;
+        font-size: 2.5rem;
+        padding-top: 15px;
+    }
+
+    .scrolling-image
+    {
+        left:10%;
+    }
+
+    .Q1 {
+        left: 15%;
+    }
+    
+    .Q2 {
+        left: 15%;
+    }
+    
+    .Q3 {
+        left: 15%;
+    }
+    
+    .Q4 {
+        left: 15%;
     }
     .Text {
         font-size: 0.6rem;
@@ -762,31 +784,39 @@ body {
     }
     /*---------------------CONTENT NFT----------------*/
     .Nft {
-        left: 40px;
-        top: 60px;
-        font-size: 1.2rem;
+        top: -80px;
+        font-size: 2.5rem;
     }
     .Coming1 {
         left: 30%;
         top: 175px;
         font-size: 1.4rem;
     }
+
+    .button-container{
+        margin-top: 20px;
+    }
     /*-----------------CONTENT MERCH------------------*/
     .Merch {
-        left: 40px;
-        top: 60px;
-        font-size: 1.2rem;
+        padding-top: 15px;
+        font-size: 2.5rem;
     }
     .Coming2 {
-        left: 26%;
-        top: 157px;
-        font-size: 1.4rem;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 3rem;
+        width: 100%;
+        text-align: center;
     }
     .MerchPic {
-        left: 16;
-        top: 165px;
-        z-index: -1;
-        width: 250px;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%, -50%);
+        width: 440px;
+        align-items: center;
     }
     /*---------------------FOOTER---------------------*/
     .Navbar {
