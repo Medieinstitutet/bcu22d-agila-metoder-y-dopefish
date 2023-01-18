@@ -3,9 +3,11 @@ import MerchImg from "/img/Merch.png"
 export default function MerchPage () {
     return (
         <div>
-            <h2 className="Merch">Merch</h2>
-            <h1 className="Coming2">COMING SOON!</h1>
-            <img src={MerchImg} className="MerchPic" />
+            <div className="containerMerchPage">
+                <h2 className="Merch">Merch</h2>
+                <h1 className="Coming2">COMING SOON!</h1>
+                <img src={MerchImg} className="MerchPic" />
+            </div>
             <div className="NavbarBackground">
                 <button className="backgroundColorHomeBtn"></button>
                 <button className="backgroundColorTeamBtn"></button>
