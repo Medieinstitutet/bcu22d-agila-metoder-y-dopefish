@@ -42,11 +42,16 @@
 
 ### onsdag
 **Vi fick gjort:**
--
+- Readme med bild
+- Mob ver helt klar
+- PP klar och övat presentation 
+- Demat sidan för varandra igen
 
 **Vad vi ska göra:**
 - Presentation klart o öva
-
+- Readme
+- Mob ver
+- PP klar och övat presentation 
 
 **Vi har inte gjort:**
 
