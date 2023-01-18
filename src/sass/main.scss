@@ -25,8 +25,11 @@ body {
 	scale: 1.25;
 }
 
-.RM, .team, .Merch, .Nft{
-	font-family: 'Gill Sans', sans-serif;
+.RM, 
+.team, 
+.Merch, 
+.Nft{
+	font-family:  "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	font-size: 4.5em;
@@ -68,7 +71,7 @@ body {
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     animation: ScaleUp 2s ease-in-out infinite alternate;
     position: relative;
-    margin-top: 12%;
+    margin-top: 20%;
 }
 
 .buyBtn:hover {
@@ -86,17 +89,17 @@ body {
 
 .home-container {
     margin-top: 5%;
-    width: 45vh;
-    height: 45vh; 
+    padding: 15px;
     border-radius: 10px;
     box-shadow: 2px 2px 5px 5px rgb(255, 136, 0);
     background-color: rgba(60, 152, 60, 0.8);
     position: relative;
+    margin-bottom: 5px;
 }
 
 .title {
     color: rgb(255, 136, 0,);
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: bold;
     text-shadow: 2px 2px 2px rgb(0, 0, 0);
     text-align: center;
@@ -109,6 +112,7 @@ body {
     background-color: rgb(255, 136, 0);
     margin: 0 auto;
 }
+
 .home-text {
     font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
     color: rgb(255, 136, 0);
@@ -176,9 +180,12 @@ body {
     margin-top: 10%;   
 }
 
-.contaionerDev1, .contaionerDev2, .contaionerDev3, .contaionerDev4 {
+.contaionerDev1, 
+.contaionerDev2, 
+.contaionerDev3, 
+.contaionerDev4 {
     text-align: center;
-    width: 20%;
+    width: 18%;
 }
 
 .Dev1pic,
@@ -186,7 +193,7 @@ body {
 .Dev3pic,
 .Dev4pic {
     border-radius: 100px;
-    width: 100px;
+    width: 120px;
 
     outline: solid 5px rgb(70, 172, 70);
     top: 300px;
@@ -209,7 +216,6 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: rgb(255, 136, 0);
     font-size: 1rem;
-
 }
 
 .textDev1b,
@@ -453,7 +459,6 @@ body {
     p {
         padding-left: 16px;
         padding-right: 16px;
-
         color: white;
     }
 
@@ -474,12 +479,21 @@ body {
 /*-----------------CONTENT MERCH------------------*/
 /*------------------------------------------------*/
 
+.containerMerchPage {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+}
+
 .Coming2 {
 	font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 	color: orange;
-	position: fixed;
-	left: 35vw;
-	top: 325px;
+    position: fixed;
+    top: 35%;
 	font-size: 4rem;
 	transform: rotate(-20deg);
 	animation: glow;
@@ -488,10 +502,9 @@ body {
 }
 
 .MerchPic {
-	position: fixed;
-	left: 33vw;
-	top: 15rem;
-	width: 40rem;
+    top: 25%;
+    position: fixed;
+	width: 45rem;
 	z-index: 1;
 }
 
@@ -519,7 +532,7 @@ body {
 .merchBtn {
 	font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 	background-color: rgba(0, 0, 0, 0);
-	font-size: 1.4rem;
+	font-size: 1.5rem;
 	font-weight: 700;
 	padding: 10px;
 	color: rgb(70, 172, 70);
@@ -575,10 +588,10 @@ body {
 /*------------------------------------------------*/
 /*----------------MOBILE--------------------------*/
 /*------------------------------------------------*/
-@media screen and (max-width: 500px) { 
+@media screen and (max-width: 450px) { 
 
     body {
-        background-image: url('/img/water_mob.jpg');
+        background-image: url("/img/water_mob.jpg");
         background-size: cover;
         box-sizing: border-box;
     } 
@@ -623,25 +636,40 @@ body {
         margin-top: 30%;
         row-gap: 35px;
     }
-    .contaionerDev1, .contaionerDev2, .contaionerDev3, .contaionerDev4 {
+    .contaionerDev1, 
+    .contaionerDev2, 
+    .contaionerDev3, 
+    .contaionerDev4 {
         text-align: center;
         width: 35%;
     }
-    .Dev1pic, .Dev2pic, .Dev3pic, .Dev4pic {
-        width: 45px;
+    .Dev1pic, 
+    .Dev2pic, 
+    .Dev3pic, 
+    .Dev4pic {
+        width: 55px;
         outline: solid 2px rgb(70, 172, 70);
     }
     
-    .textDev1, .textDev2, .textDev3, .textDev4  {
-        font-size: 0.6rem;
+    .textDev1, 
+    .textDev2, 
+    .textDev3, 
+    .textDev4  {
+        font-size: 0.65rem;
     }
 
-    .textDev1a, .textDev2a, .textDev3a, .textDev4a  {
-        font-size: 0.6rem;
+    .textDev1a, 
+    .textDev2a, 
+    .textDev3a, 
+    .textDev4a  {
+        font-size: 0.65rem;
     }
 
-    .textDev1b, .textDev2b, .textDev3b, .textDev4b  {
-        font-size: 0.6rem;
+    .textDev1b, 
+    .textDev2b, 
+    .textDev3b, 
+    .textDev4b  {
+        font-size: 0.65rem;
     }
     
     /*-----------------CONTENT ROADMAP----------------*/
@@ -707,23 +735,15 @@ body {
         font-size: 2.5rem;
     }
     .Coming2 {
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        font-size: 2.5rem;
-        width: 100%;
-        text-align: center;
+        top: 35%;
+        font-size: 2.2rem;
+        transform: rotate(-25deg);
     }
     .MerchPic {
-        position: absolute;
-        top:50%;
-        left:50%;
-        transform: translate(-50%, -50%);
-        width: 400px;
-        align-items: center;
+        width: 370px;
+        top: 30%;
     }
-    /*---------------------FOOTER---------------------*/
+    /*---------------------NAVBAR---------------------*/
     .Navbar {
         height: 60px;
         margin: 10px;
@@ -731,7 +751,11 @@ body {
         left: 5px;
         right: 5px;
     }
-    .homeBtn, .teamBtn, .roadMapBtn, .nftBtn, .merchBtn {
+    .homeBtn, 
+    .teamBtn, 
+    .roadMapBtn, 
+    .nftBtn, 
+    .merchBtn {
         font-size: 0.7rem;
         font-weight: 700;
     }
