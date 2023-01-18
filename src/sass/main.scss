@@ -287,6 +287,7 @@ body {
 	left: 18%;
 	animation: moveRight 0.8s ease-in 1;
 }
+
 .box {
 	position: absolute;
 	font-size: 1.8rem;
@@ -354,6 +355,7 @@ body {
 	0% {
 		left: -16%;
 	}
+
 	100% {
 		left: 16%;
 	}
@@ -363,15 +365,18 @@ body {
 	0% {
 		opacity: 0;
 	}
+
 	100% {
 		opacity: 1;
 	}
 }
+
 .Done {
 	text-decoration: line-through;
 	opacity: 0.9;
 	color: white;
 }
+
 .Done:hover {
 	text-decoration: none;
 }
@@ -401,26 +406,18 @@ body {
     gap: 50px;
     height: 50vh;
     width: 80vw;
-    // background-color: black;
     margin-left: auto;
     margin-right: auto;
-    // overflow-y: scroll;
 }
 
 
 .Coming1 {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     color: orange;
-    // position: fixed;
-    // left: 500px;
-    // top: 200px;
     font-size: 2.6rem;
     transform: rotate(-20deg);
     animation: glow;
     text-shadow: 0 0 1px #fff, 0 0 2px orange;
-}
-
-.nftPrev{
 }
 
 .nftNext{
@@ -436,7 +433,6 @@ body {
     background-color: rgba(0, 0, 0, 0);
     margin-top: 10px;
     text-shadow: 3px 5px rgb(0 27 23), 4px 4px 5px #000000;;
-    
 }
 
 .nftNext:hover {
@@ -599,10 +595,12 @@ body {
         background-size: cover;
         box-sizing: border-box;
     } 
+
     /*-------------------HEADER-------------------*/
     .header img {
         width: 75px;
     }
+
     /*-------------------CONTENT HOME---------------*/
     .token {
         max-width: 160px;
@@ -610,15 +608,19 @@ body {
         left: 0;
         top: 0px;
     }
+
     .home-container {
         margin-top: 0%;
     } 
+
     .title {
         font-size: 1.5rem;
-    }   
+    }  
+
     .home-text {
         font-size: 0.8rem;
-    }   
+    } 
+
     .home-link{ 
         font-size: 0.75rem;
     }
@@ -636,10 +638,12 @@ body {
         font-size: 2.5rem;
         padding-top: 15px;
     }
+
     .containerAllDev {
         margin-top: 30%;
         row-gap: 35px;
     }
+
     .contaionerDev1, 
     .contaionerDev2, 
     .contaionerDev3, 
@@ -683,16 +687,19 @@ body {
         font-size: 2.5rem;
         padding-top: 15px;
     }
+
     .box { 
         width: 240px;
         height: 180px;
         background-position: 5rem 5rem;
 	    background-size: 200px;
     }
+
     .box li {
         font-size: 1.1rem;     
         line-height: 2;
     }
+
     .box h3 {
         font-size: 1.5rem; 
     }
@@ -723,6 +730,7 @@ body {
         top: -80px;
         font-size: 2.5rem;
     }
+
     .Coming1 {
         left: 30%;
         top: 175px;
@@ -734,12 +742,7 @@ body {
     }
 
     .nft {
-        // background-color: green;
         height: 400px;
-        // width: 300px;
-        // border-radius: 10px;
-        // display: flex;
-        // flex-direction: column;
 
         h1 {
             font-size: 1.75rem;
@@ -752,12 +755,8 @@ body {
         img {
             width: 150px;
             height: 150px;
-            // margin-left: auto;
-            // margin-right: auto;
-            // border: 5px solid black;
         }
     }
-    
 
     /*-----------------CONTENT MERCH------------------*/
     .Merch {
@@ -769,10 +768,12 @@ body {
         font-size: 2.2rem;
         transform: rotate(-25deg);
     }
+
     .MerchPic {
         width: 370px;
         top: 30%;
     }
+
     /*---------------------NAVBAR---------------------*/
     .Navbar {
         height: 60px;
@@ -781,6 +782,7 @@ body {
         left: 5px;
         right: 5px;
     }
+
     .homeBtn, 
     .teamBtn, 
     .roadMapBtn, 
@@ -789,6 +791,7 @@ body {
         font-size: 0.7rem;
         font-weight: 700;
     }
+
     .NavbarBackground {
         height: 60px;
         margin: 10px;
