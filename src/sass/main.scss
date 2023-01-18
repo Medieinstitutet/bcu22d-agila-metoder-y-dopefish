@@ -450,6 +450,9 @@ body {
 	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 2px 2px black;
 
     h1 {
         margin-left: auto;
@@ -460,6 +463,7 @@ body {
         padding-left: 16px;
         padding-right: 16px;
         color: white;
+      
     }
 
 	img {
@@ -728,6 +732,32 @@ body {
     .button-container{
         margin-top: 20px;
     }
+
+    .nft {
+        // background-color: green;
+        height: 400px;
+        // width: 300px;
+        // border-radius: 10px;
+        // display: flex;
+        // flex-direction: column;
+
+        h1 {
+            font-size: 1.75rem;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    
+        img {
+            width: 150px;
+            height: 150px;
+            // margin-left: auto;
+            // margin-right: auto;
+            // border: 5px solid black;
+        }
+    }
+    
 
     /*-----------------CONTENT MERCH------------------*/
     .Merch {
