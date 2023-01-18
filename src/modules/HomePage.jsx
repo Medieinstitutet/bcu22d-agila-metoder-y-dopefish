@@ -3,43 +3,37 @@ import tokenImg from "/img/token.gif";
 export default function HomePage() {
 	return (
 		<div>
-			<img
-				src={tokenImg}
-				className="token"
-			/>
-			<div className="container">
-				<div className="home-container">
+			<div className="containerHomePage">
+			    <img
+				    src={tokenImg}
+				    className="token"
+			    />
+			    <div className="home-container">
 					<h2 className="title">How to Buy</h2>
 					<div className="line-home"></div>
 					<p className="home-text">1. Click the "Buy Dopefish Token" button</p>
-
 					<p className="home-text">2. Connect your wallet to Uniswap</p>
-
-					<p className="home-text">
-						3. Select the amount of Dopefish you want to buy
-					</p>
-
+					<p className="home-text">3. Select the amount of Dopefish you want to buy</p>
 					<p className="home-text">4. Click "Swap"</p>
-
 					<p className="home-text">5. Confirm the transaction</p>
-
 					<p className="home-text bold">HAPPY FISHING</p>
-
 					<p className="home-text">Contract adress:</p>
 					<div className="home-link">
-						<a
+						<a 
 							href="https://goerli.etherscan.io/token/0xfCBeBF089d379061c903D986D18193cceD6253FD"
 							target="_blank">
 							0xfCBeBF089d379061c903D986D18193cceD6253FD
 						</a>
 					</div>
-					<a
-						href="https://app.uniswap.org/#/swap?exactField=input&exactAmount=10&inputCurrency=0x1f9840a85d5af5bf1d1762f925bdaddc4201f984&exactField=output&outputCurrency=0xfCBeBF089d379061c903D986D18193cceD6253FD"
-						target="_blank">
-						<button className="buyBtn">Buy Dopefish Token</button>
-					</a>
 				</div>
+				<a
+					href="https://app.uniswap.org/#/swap?exactField=input&exactAmount=10&inputCurrency=0x1f9840a85d5af5bf1d1762f925bdaddc4201f984&exactField=output&outputCurrency=0xfCBeBF089d379061c903D986D18193cceD6253FD"
+					target="_blank">
+					<button className="buyBtn">Buy Dopefish Token</button>
+				</a>
+				
 			</div>
+			
 			<div className="NavbarBackground">
 				<button
 					className="backgroundColorHomeBtn"
@@ -53,5 +47,5 @@ export default function HomePage() {
 				<button className="backgroundColorMerchBtn"></button>
 			</div>
 		</div>
-	);
+	)
 }
