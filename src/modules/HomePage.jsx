@@ -20,14 +20,14 @@ export default function HomePage() {
 					<p className="home-text">Contract adress:</p>
 					<div className="home-link">
 						<a 
-							href="https://goerli.etherscan.io/token/0xfCBeBF089d379061c903D986D18193cceD6253FD"
+							href="https://goerli.etherscan.io/token/0xC9e70015eDAa8E714743f24F71AdC61217369B69"
 							target="_blank">
-							0xfCBeBF089d379061c903D986D18193cceD6253FD
+							0xC9e70015eDAa8E714743f24F71AdC61217369B69
 						</a>
 					</div>
 				</div>
 				<a
-					href="https://app.uniswap.org/#/swap?exactField=input&exactAmount=10&inputCurrency=0x1f9840a85d5af5bf1d1762f925bdaddc4201f984&exactField=output&outputCurrency=0xfCBeBF089d379061c903D986D18193cceD6253FD"
+					href="https://app.uniswap.org/#/swap?exactField=input&exactAmount=10&inputCurrency=0x1f9840a85d5af5bf1d1762f925bdaddc4201f984&exactField=output&outputCurrency=0xC9e70015eDAa8E714743f24F71AdC61217369B69"
 					target="_blank">
 					<button className="buyBtn">Buy Dopefish Token</button>
 				</a>
