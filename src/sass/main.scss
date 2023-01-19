@@ -1,0 +1,831 @@
+body {
+  background-image: url("/img/water.jpg");
+  background-size: cover;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+/*------------------------------------------------*/
+/*-------------------HEADER-----------------------*/
+/*------------------------------------------------*/
+.header {
+  position: fixed;
+  right: 15px;
+  top: 10px;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  z-index: 1;
+}
+
+.header img {
+  transition: 0.5s;
+}
+
+.header img:hover {
+  scale: 1.25;
+}
+
+.RM,
+.team,
+.Merch,
+.Nft {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  font-size: 4.5em;
+  color: rgb(70, 172, 70);
+  text-shadow: 3px 3px 5px rgb(0, 27, 23), 4px 4px 5px #000000;
+  text-align: center;
+  animation: fadeIn 1s ease-in 1;
+  margin: 0 0;
+}
+
+/*------------------------------------------------*/
+/*-----------------CONTENT HOME-------------------*/
+/*------------------------------------------------*/
+.containerHomePage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.buyBtn {
+  font-family: "Rubik", sans-serif;
+  background-color: rgb(60, 152, 60);
+  top: 95%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 25px;
+  color: rgb(255, 136, 0);
+  width: 37vh;
+  border-radius: 6px;
+  border: none;
+  transition: 0.5s ease;
+  box-shadow: 2px 2px 10px 10px rgb(255, 136, 0);
+  cursor: pointer;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  animation: ScaleUp 2s ease-in-out infinite alternate;
+  position: relative;
+  margin-top: 20%;
+}
+
+.buyBtn:hover {
+  background-color: rgb(57, 134, 57);
+  scale: 2;
+  box-shadow: 2px 2px 250px 250px rgb(255, 136, 0);
+}
+
+.token {
+  top: 50px;
+  left: 60px;
+  width: 350px;
+  position: fixed;
+}
+
+.home-container {
+  margin-top: 5%;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px rgb(255, 136, 0);
+  background-color: rgba(60, 152, 60, 0.8);
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.title {
+  color: rgb(255, 136, 0);
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px 0;
+}
+
+.line-home {
+  width: 75%;
+  height: 1px;
+  background-color: rgb(255, 136, 0);
+  margin: 0 auto;
+}
+
+.home-text {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: rgb(255, 136, 0);
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+}
+
+.bold {
+  font-size: 1.5rem;
+  margin: 0 5px;
+  text-decoration: underline;
+}
+
+.home-link {
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: rgb(255, 136, 0);
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.home-link a {
+  transition: 0.5s;
+  padding: 5px 5px;
+  border-radius: 10px;
+  color: rgb(255, 136, 0);
+  text-decoration: none;
+}
+
+.home-link a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes ScaleUp {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*------------------------------------------------*/
+/*-----------------CONTENT TEAM-------------------*/
+/*------------------------------------------------*/
+
+.containerAllDev {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.contaionerDev1,
+.contaionerDev2,
+.contaionerDev3,
+.contaionerDev4 {
+  text-align: center;
+  width: 18%;
+}
+
+.Dev1pic,
+.Dev2pic,
+.Dev3pic,
+.Dev4pic {
+  border-radius: 100px;
+  width: 120px;
+
+  outline: solid 5px rgb(70, 172, 70);
+  top: 300px;
+}
+
+.textDev1,
+.textDev2,
+.textDev3,
+.textDev4 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(255, 136, 0);
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.textDev1a,
+.textDev2a,
+.textDev3a,
+.textDev4a {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(255, 136, 0);
+  font-size: 1rem;
+}
+
+.textDev1b,
+.textDev2b,
+.textDev3b,
+.textDev4b {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(255, 136, 0);
+  font-size: 1.2rem;
+}
+
+/*------------------------------------------------*/
+/*-----------------CONTENT ROADMAP----------------*/
+/*------------------------------------------------*/
+.container {
+  width: 10%;
+  height: 100%;
+}
+
+.line {
+  width: 60%;
+  height: 5px;
+  background-color: rgb(60, 152, 60, 0.5);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  left: 20%;
+  animation: fadeIn 0.5s ease-in 1;
+}
+
+.circle {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: rgb(255, 136, 0);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  cursor: pointer;
+  animation: fadeIn 0.5s ease-in 1;
+  box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+
+.left {
+  left: 20%;
+}
+
+.middle1 {
+  left: 40%;
+}
+.middle2 {
+  left: 60%;
+}
+
+.right {
+  left: 80%;
+}
+
+.scrolling-image {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 140px;
+  height: 150px;
+  transition: left 1s ease-in-out;
+  z-index: 3;
+  left: 18%;
+  animation: moveRight 0.8s ease-in 1;
+}
+
+.box {
+  position: absolute;
+  font-size: 1.8rem;
+  width: 300px;
+  height: 200px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url("/img/sharky.png");
+  background-repeat: no-repeat;
+  background-position: 6rem 5rem;
+  background-size: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px 5px rgb(0, 0, 0);
+  animation: fadeIn 0.5s ease-in 1;
+}
+
+.box li {
+  font-family: "Gill Sans", sans-serif;
+  list-style: none;
+  color: rgb(70, 172, 70);
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-left: -40px;
+  line-height: 1.7;
+}
+
+.box ul {
+  margin: 0;
+}
+
+.box h3 {
+  text-align: center;
+  margin: 0;
+  color: rgb(255, 136, 0);
+}
+
+.underline {
+  height: 1px;
+  width: 100%;
+  margin-bottom: 2px;
+  background-color: rgb(60, 152, 60);
+}
+
+.Q1 {
+  top: 13%;
+  left: 12%;
+}
+
+.Q2 {
+  top: 58%;
+  left: 33%;
+}
+
+.Q3 {
+  top: 13%;
+  left: 52%;
+}
+
+.Q4 {
+  top: 58%;
+  left: 73%;
+}
+
+@keyframes moveRight {
+  0% {
+    left: -16%;
+  }
+
+  100% {
+    left: 16%;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.Done {
+  text-decoration: line-through;
+  opacity: 0.9;
+  color: white;
+}
+
+.Done:hover {
+  text-decoration: none;
+}
+
+/*------------------------------------------------*/
+/*---------------------CONTENT NFT----------------*/
+/*------------------------------------------------*/
+
+.Nft {
+  position: relative;
+  top: -55px;
+}
+
+.nftPage {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nftDiv {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+  height: 50vh;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Coming1 {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: orange;
+  font-size: 2.6rem;
+  transform: rotate(-20deg);
+  animation: glow;
+  text-shadow: 0 0 1px #fff, 0 0 2px orange;
+}
+
+.nftNext {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  font-size: 1.7rem;
+  color: rgb(70, 172, 70);
+  width: 130px;
+  padding: 5px 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  margin-top: 10px;
+  text-shadow: 3px 5px rgb(0 27 23), 4px 4px 5px #000000;
+}
+
+.nftNext:hover {
+  background-color: rgb(255, 136, 0, 0.2);
+}
+
+.nft {
+  background-color: green;
+  height: 455px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 2px 2px black;
+
+  h1 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p {
+    padding-left: 16px;
+    padding-right: 16px;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+  }
+
+  &:hover {
+    box-shadow: 5px 5px black;
+  }
+}
+
+/*------------------------------------------------*/
+/*-----------------CONTENT MERCH------------------*/
+/*------------------------------------------------*/
+
+.containerMerchPage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Coming2 {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  color: orange;
+  position: fixed;
+  top: 35%;
+  font-size: 4rem;
+  transform: rotate(-20deg);
+  animation: glow;
+  text-shadow: 0 0 1px #fff, 0 0 2px orange;
+  z-index: 2;
+}
+
+.MerchPic {
+  top: 25%;
+  position: fixed;
+  width: 45rem;
+  z-index: 1;
+}
+.MerchPoster {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 100px;
+  left: 3%;
+  transform: rotateX(10deg) rotateY(5deg);
+  transition: transform 1s;
+  box-shadow: 10px 10px 5px #000000;
+}
+.MerchKeps {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 15%;
+  top: 50px;
+  transform: rotate3d(1, 1, 1, 25deg);
+}
+.MerchMugg {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  right: 10%;
+  top: 450px;
+  transform: rotate3d(1, 1, 1, 50deg);
+}
+
+/*------------------------------------------------*/
+/*---------------------NAVBAR---------------------*/
+/*------------------------------------------------*/
+.Navbar {
+  height: 70px;
+  margin: 10px;
+  position: fixed;
+  bottom: 15px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  outline: solid 3px rgb(255, 136, 0);
+  border-radius: 10px;
+}
+
+.homeBtn,
+.teamBtn,
+.roadMapBtn,
+.nftBtn,
+.merchBtn {
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 10px;
+  color: rgb(70, 172, 70);
+  text-shadow: 3px 5px rgb(0 27 23), 4px 4px 5px #000000;
+  width: 190px;
+  border: none;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.homeBtn:hover {
+  border-bottom: solid 5px rgb(70, 172, 70);
+}
+
+.teamBtn:hover {
+  border-bottom: solid 5px rgb(70, 172, 70);
+}
+
+.roadMapBtn:hover {
+  border-bottom: solid 5px rgb(70, 172, 70);
+}
+
+.nftBtn:hover {
+  border-bottom: solid 5px rgb(70, 172, 70);
+}
+
+.merchBtn:hover {
+  border-bottom: solid 5px rgb(70, 172, 70);
+}
+
+.NavbarBackground {
+  height: 70px;
+  margin: 10px;
+  position: fixed;
+  bottom: 15px;
+  left: 10px;
+  right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  border-radius: 10px;
+}
+
+.backgroundColorHomeBtn,
+.backgroundColorTeamBtn,
+.backgroundColorRoadmapBtn,
+.backgroundColorNftBtn,
+.backgroundColorMerchBtn {
+  width: 190px;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+/*------------------------------------------------*/
+/*----------------MOBILE--------------------------*/
+/*------------------------------------------------*/
+@media screen and (max-width: 450px) {
+  body {
+    background-image: url("/img/water_mob.jpg");
+    background-size: cover;
+    box-sizing: border-box;
+  }
+
+  /*-------------------HEADER-------------------*/
+  .header img {
+    width: 75px;
+  }
+
+  /*-------------------CONTENT HOME---------------*/
+  .token {
+    max-width: 160px;
+    position: relative;
+    left: 0;
+    top: 0px;
+  }
+
+  .home-container {
+    margin-top: 0%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .home-text {
+    font-size: 0.8rem;
+  }
+
+  .home-link {
+    font-size: 0.75rem;
+  }
+
+  .buyBtn {
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 250px;
+    margin-top: 8%;
+  }
+
+  /*-----------------CONTENT TEAM-------------------*/
+  .team {
+    font-size: 2.5rem;
+    padding-top: 15px;
+  }
+
+  .containerAllDev {
+    margin-top: 30%;
+    row-gap: 35px;
+  }
+
+  .contaionerDev1,
+  .contaionerDev2,
+  .contaionerDev3,
+  .contaionerDev4 {
+    text-align: center;
+    width: 35%;
+  }
+  .Dev1pic,
+  .Dev2pic,
+  .Dev3pic,
+  .Dev4pic {
+    width: 55px;
+    outline: solid 2px rgb(70, 172, 70);
+  }
+
+  .textDev1,
+  .textDev2,
+  .textDev3,
+  .textDev4 {
+    font-size: 0.65rem;
+  }
+
+  .textDev1a,
+  .textDev2a,
+  .textDev3a,
+  .textDev4a {
+    font-size: 0.65rem;
+  }
+
+  .textDev1b,
+  .textDev2b,
+  .textDev3b,
+  .textDev4b {
+    font-size: 0.65rem;
+  }
+
+  /*-----------------CONTENT ROADMAP----------------*/
+  .RM {
+    left: 40px;
+    top: 60px;
+    font-size: 2.5rem;
+    padding-top: 15px;
+  }
+
+  .box {
+    width: 240px;
+    height: 180px;
+    background-position: 5rem 5rem;
+    background-size: 200px;
+  }
+
+  .box li {
+    font-size: 1.1rem;
+    line-height: 2;
+  }
+
+  .box h3 {
+    font-size: 1.5rem;
+  }
+
+  .scrolling-image {
+    left: 10%;
+    width: 110px;
+  }
+
+  .Q1 {
+    left: 15%;
+  }
+
+  .Q2 {
+    left: 15%;
+  }
+
+  .Q3 {
+    left: 15%;
+  }
+
+  .Q4 {
+    left: 15%;
+  }
+
+  /*---------------------CONTENT NFT----------------*/
+  .Nft {
+    top: -80px;
+    font-size: 2.5rem;
+  }
+
+  .Coming1 {
+    left: 30%;
+    top: 175px;
+    font-size: 1.4rem;
+  }
+
+  .button-container {
+    margin-top: 20px;
+  }
+
+  .nft {
+    height: 400px;
+
+    h1 {
+      font-size: 1.75rem;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  /*-----------------CONTENT MERCH------------------*/
+  .Merch {
+    padding-top: 15px;
+    font-size: 2.5rem;
+  }
+  .Coming2 {
+    top: 35%;
+    font-size: 2.2rem;
+    transform: rotate(-25deg);
+  }
+
+  .MerchPic {
+    width: 370px;
+    top: 30%;
+  }
+
+  .MerchPoster{
+    display: none;
+  }
+
+  /*---------------------NAVBAR---------------------*/
+  .Navbar {
+    height: 60px;
+    margin: 10px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+  }
+
+  .homeBtn,
+  .teamBtn,
+  .roadMapBtn,
+  .nftBtn,
+  .merchBtn {
+    font-size: 0.7rem;
+    font-weight: 700;
+  }
+
+  .NavbarBackground {
+    height: 60px;
+    margin: 10px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+  }
+}

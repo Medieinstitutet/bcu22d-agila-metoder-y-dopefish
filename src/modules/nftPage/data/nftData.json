@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "name": "Viking",
+        "description": "I'm a firece Viking fish, ready to pillage the digital seas and acquire all the cryptocurrency i can hold in my digital fishy pockets. TYYR!",
+        "price": "TBD"
+    },
+    {
+        "id": 2,
+        "name": "Red Eye",
+        "description": "I'm a Cool fish with great hair, a smile that will brighten up your day, and a red eye to catch every mermaid's attention. I'm a unique brat that NO ONE can say NO to.",
+        "price": "TBD"
+        
+    },
+    {
+        "id": 3,
+        "name": "Mermaid",
+        "description": "Always be yourself. Unless you can be a mermaid. Then always be a mermaid",
+        "price": "TBD"
+    },
+    {
+        "id": 4,
+        "name": "Tivoli",
+        "description": "With chocolate and a lollipop in my hand you know I am the sweetest fish in town. With my helicopter hat you know I won't stay long, ADVENTURES HERE I COME!",
+        "price": "TBD"
+    },
+    {
+        "id": 5,
+        "name": "Mrs. Walrus",
+        "description": "Don't let my vampire teeth fool you. I'm a Cool tech girl, always ready to help. Hair that would make a king jealous. So hit me up at 070-I-Live-In-The-Ocean.",
+        "price": "TBD"
+    },
+    {
+        "id": 6,
+        "name": "King",
+        "description": "Make way for the ruler of the sea, the one and only king of the fishs, with my dazzling diamond wand I command the tide and all the creatures of the ocean.",
+        "price": "TBD"
+    },
+    {
+        "id": 7,
+        "name": "Shark",
+        "description": "ITS THE RACE OF MY LIFE! Usain Bolt got nothing on me. With a shark on my tail my topspeed is about 100 / kph. Usain Bolt SIT DOWN!",
+        "price": "TBD"
+    },
+    {
+        "id": 8,
+        "name": "Longhorn",
+        "description": "With my Crazy smile and horn you might think i run Hell. haha! not true. I run oceans HELL FIRE! So beware so you dont get to spend eternity with me! Mohahaha!",
+        "price": "TBD"
+    },
+    {
+        "id": 9,
+        "name": "Sheriff",
+        "description": " I'm the Sheriff of this ocean. If you have anything to report, you come straight to me. If anything is going on in my Ocean Town. I WANNA KNOW! *Bang! Bang!*",
+        "price": "TBD"
+    }
+]
